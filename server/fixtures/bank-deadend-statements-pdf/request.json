@@ -1,0 +1,595 @@
+{
+  "sessionId": "fixture-bank-deadend-statements-pdf",
+  "turn": 6,
+  "goal": "how much did I spend on groceries last month?",
+  "page": {
+    "url": "http://localhost:3001/statements",
+    "title": "Harbor Bank",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "devicePixelRatio": 1,
+    "scrollY": 0,
+    "scrollMaxY": 0
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "button",
+      "label": "Locations",
+      "rect": {
+        "x": 150,
+        "y": 6,
+        "w": 59,
+        "h": 18
+      }
+    },
+    {
+      "id": 2,
+      "role": "button",
+      "label": "Contact us",
+      "rect": {
+        "x": 229,
+        "y": 6,
+        "w": 67,
+        "h": 18
+      }
+    },
+    {
+      "id": 3,
+      "role": "button",
+      "label": "Español",
+      "rect": {
+        "x": 316,
+        "y": 6,
+        "w": 49,
+        "h": 18
+      }
+    },
+    {
+      "id": 4,
+      "role": "button",
+      "label": "Search Harbor Bank",
+      "rect": {
+        "x": 1247,
+        "y": 6,
+        "w": 43,
+        "h": 18
+      }
+    },
+    {
+      "id": 5,
+      "role": "link",
+      "label": "H Harbor Bank",
+      "rect": {
+        "x": 150,
+        "y": 44,
+        "w": 174,
+        "h": 28
+      }
+    },
+    {
+      "id": 6,
+      "role": "link",
+      "label": "Personal",
+      "rect": {
+        "x": 356,
+        "y": 48,
+        "w": 58,
+        "h": 20
+      }
+    },
+    {
+      "id": 7,
+      "role": "link",
+      "label": "Spending insights",
+      "rect": {
+        "x": 432,
+        "y": 48,
+        "w": 123,
+        "h": 20
+      }
+    },
+    {
+      "id": 8,
+      "role": "button",
+      "label": "Business",
+      "rect": {
+        "x": 573,
+        "y": 48,
+        "w": 61,
+        "h": 20
+      }
+    },
+    {
+      "id": 9,
+      "role": "button",
+      "label": "Credit Cards",
+      "rect": {
+        "x": 651,
+        "y": 48,
+        "w": 85,
+        "h": 20
+      }
+    },
+    {
+      "id": 10,
+      "role": "button",
+      "label": "Loans",
+      "rect": {
+        "x": 754,
+        "y": 48,
+        "w": 40,
+        "h": 20
+      }
+    },
+    {
+      "id": 11,
+      "role": "button",
+      "label": "Mortgages",
+      "rect": {
+        "x": 812,
+        "y": 48,
+        "w": 73,
+        "h": 20
+      }
+    },
+    {
+      "id": 12,
+      "role": "button",
+      "label": "Investing",
+      "rect": {
+        "x": 903,
+        "y": 48,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "id": 13,
+      "role": "button",
+      "label": "Learn",
+      "rect": {
+        "x": 984,
+        "y": 48,
+        "w": 38,
+        "h": 20
+      }
+    },
+    {
+      "id": 14,
+      "role": "link",
+      "label": "Help",
+      "rect": {
+        "x": 1041,
+        "y": 48,
+        "w": 31,
+        "h": 20
+      }
+    },
+    {
+      "id": 15,
+      "role": "button",
+      "label": "Log out",
+      "rect": {
+        "x": 1209,
+        "y": 42,
+        "w": 81,
+        "h": 33
+      }
+    },
+    {
+      "id": 16,
+      "role": "button",
+      "label": "Download PDF",
+      "rect": {
+        "x": 601,
+        "y": 222,
+        "w": 95,
+        "h": 19
+      }
+    },
+    {
+      "id": 17,
+      "role": "button",
+      "label": "Download PDF",
+      "rect": {
+        "x": 601,
+        "y": 263,
+        "w": 95,
+        "h": 19
+      },
+      "focused": true
+    },
+    {
+      "id": 18,
+      "role": "button",
+      "label": "Download PDF",
+      "rect": {
+        "x": 601,
+        "y": 304,
+        "w": 95,
+        "h": 19
+      }
+    },
+    {
+      "id": 19,
+      "role": "button",
+      "label": "Download PDF",
+      "rect": {
+        "x": 601,
+        "y": 345,
+        "w": 95,
+        "h": 19
+      }
+    },
+    {
+      "id": 20,
+      "role": "button",
+      "label": "Checking",
+      "rect": {
+        "x": 150,
+        "y": 536,
+        "w": 59,
+        "h": 19
+      }
+    },
+    {
+      "id": 21,
+      "role": "button",
+      "label": "Savings",
+      "rect": {
+        "x": 150,
+        "y": 561,
+        "w": 50,
+        "h": 19
+      }
+    },
+    {
+      "id": 22,
+      "role": "button",
+      "label": "CDs",
+      "rect": {
+        "x": 150,
+        "y": 587,
+        "w": 25,
+        "h": 19
+      }
+    },
+    {
+      "id": 23,
+      "role": "button",
+      "label": "Credit cards",
+      "rect": {
+        "x": 150,
+        "y": 612,
+        "w": 77,
+        "h": 19
+      }
+    },
+    {
+      "id": 24,
+      "role": "button",
+      "label": "Debit cards",
+      "rect": {
+        "x": 150,
+        "y": 638,
+        "w": 73,
+        "h": 19
+      }
+    },
+    {
+      "id": 25,
+      "role": "button",
+      "label": "ATM & branches",
+      "rect": {
+        "x": 150,
+        "y": 664,
+        "w": 104,
+        "h": 19
+      }
+    },
+    {
+      "id": 26,
+      "role": "button",
+      "label": "Personal loans",
+      "rect": {
+        "x": 382,
+        "y": 536,
+        "w": 92,
+        "h": 19
+      }
+    },
+    {
+      "id": 27,
+      "role": "button",
+      "label": "Auto loans",
+      "rect": {
+        "x": 382,
+        "y": 561,
+        "w": 68,
+        "h": 19
+      }
+    },
+    {
+      "id": 28,
+      "role": "button",
+      "label": "Mortgages",
+      "rect": {
+        "x": 382,
+        "y": 587,
+        "w": 68,
+        "h": 19
+      }
+    },
+    {
+      "id": 29,
+      "role": "button",
+      "label": "Home equity",
+      "rect": {
+        "x": 382,
+        "y": 612,
+        "w": 82,
+        "h": 19
+      }
+    },
+    {
+      "id": 30,
+      "role": "button",
+      "label": "Refinance",
+      "rect": {
+        "x": 382,
+        "y": 638,
+        "w": 63,
+        "h": 19
+      }
+    },
+    {
+      "id": 31,
+      "role": "button",
+      "label": "Business checking",
+      "rect": {
+        "x": 613,
+        "y": 536,
+        "w": 118,
+        "h": 19
+      }
+    },
+    {
+      "id": 32,
+      "role": "button",
+      "label": "Merchant services",
+      "rect": {
+        "x": 613,
+        "y": 561,
+        "w": 117,
+        "h": 19
+      }
+    },
+    {
+      "id": 33,
+      "role": "button",
+      "label": "Business loans",
+      "rect": {
+        "x": 613,
+        "y": 587,
+        "w": 95,
+        "h": 19
+      }
+    },
+    {
+      "id": 34,
+      "role": "button",
+      "label": "Payroll",
+      "rect": {
+        "x": 613,
+        "y": 612,
+        "w": 42,
+        "h": 19
+      }
+    },
+    {
+      "id": 35,
+      "role": "button",
+      "label": "Financial education",
+      "rect": {
+        "x": 845,
+        "y": 536,
+        "w": 124,
+        "h": 19
+      }
+    },
+    {
+      "id": 36,
+      "role": "button",
+      "label": "Calculators",
+      "rect": {
+        "x": 845,
+        "y": 561,
+        "w": 72,
+        "h": 19
+      }
+    },
+    {
+      "id": 37,
+      "role": "button",
+      "label": "Security center",
+      "rect": {
+        "x": 845,
+        "y": 587,
+        "w": 98,
+        "h": 19
+      }
+    },
+    {
+      "id": 38,
+      "role": "button",
+      "label": "Fraud prevention",
+      "rect": {
+        "x": 845,
+        "y": 612,
+        "w": 109,
+        "h": 19
+      }
+    },
+    {
+      "id": 39,
+      "role": "button",
+      "label": "About Harbor Bank",
+      "rect": {
+        "x": 1076,
+        "y": 536,
+        "w": 122,
+        "h": 19
+      }
+    },
+    {
+      "id": 40,
+      "role": "button",
+      "label": "Careers",
+      "rect": {
+        "x": 1076,
+        "y": 561,
+        "w": 49,
+        "h": 19
+      }
+    },
+    {
+      "id": 41,
+      "role": "button",
+      "label": "Newsroom",
+      "rect": {
+        "x": 1076,
+        "y": 587,
+        "w": 68,
+        "h": 19
+      }
+    },
+    {
+      "id": 42,
+      "role": "button",
+      "label": "Community",
+      "rect": {
+        "x": 1076,
+        "y": 612,
+        "w": 74,
+        "h": 19
+      }
+    },
+    {
+      "id": 43,
+      "role": "button",
+      "label": "Accessibility",
+      "rect": {
+        "x": 1076,
+        "y": 638,
+        "w": 79,
+        "h": 19
+      }
+    },
+    {
+      "id": 44,
+      "role": "heading",
+      "label": "Statements",
+      "rect": {
+        "x": 150,
+        "y": 121,
+        "w": 1140,
+        "h": 44
+      }
+    },
+    {
+      "id": 45,
+      "role": "text",
+      "label": "September 2026",
+      "rect": {
+        "x": 150,
+        "y": 211,
+        "w": 437,
+        "h": 42
+      }
+    },
+    {
+      "id": 46,
+      "role": "text",
+      "label": "August 2026",
+      "rect": {
+        "x": 150,
+        "y": 252,
+        "w": 437,
+        "h": 41
+      }
+    },
+    {
+      "id": 47,
+      "role": "text",
+      "label": "July 2026",
+      "rect": {
+        "x": 150,
+        "y": 293,
+        "w": 437,
+        "h": 41
+      }
+    },
+    {
+      "id": 48,
+      "role": "text",
+      "label": "June 2026",
+      "rect": {
+        "x": 150,
+        "y": 334,
+        "w": 437,
+        "h": 41
+      }
+    }
+  ],
+  "history": [
+    {
+      "action": "type",
+      "elementLabel": "Username",
+      "instruction": "Type your username in the box labeled Username.",
+      "outcome": "completed",
+      "turn": 1,
+      "url": "http://localhost:3001/"
+    },
+    {
+      "action": "type",
+      "elementLabel": "Password",
+      "instruction": "Type your password in the box below your email.",
+      "outcome": "completed",
+      "turn": 2,
+      "url": "http://localhost:3001/"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Sign in",
+      "instruction": "Click the yellow Sign in button to submit your login.",
+      "outcome": "completed",
+      "turn": 3,
+      "url": "http://localhost:3001/"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Statements",
+      "instruction": "Click the Statements link at the bottom of the menu.",
+      "outcome": "completed",
+      "turn": 4,
+      "url": "http://localhost:3001/accounts"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Download PDF",
+      "instruction": "Click the Download PDF button next to August 2026.",
+      "outcome": "completed",
+      "turn": 5,
+      "url": "http://localhost:3001/statements"
+    }
+  ],
+  "timings": {
+    "scanMs": 23,
+    "captureMs": 29,
+    "marksMs": 23,
+    "settleMs": 404
+  }
+}

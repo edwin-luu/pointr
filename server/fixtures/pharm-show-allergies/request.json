@@ -1,0 +1,249 @@
+{
+  "sessionId": "fixture-pharm-show-allergies",
+  "turn": 9,
+  "goal": "what are my allergies?",
+  "page": {
+    "url": "http://localhost:3002/account/health",
+    "title": "SunPlaza Pharmacy",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "devicePixelRatio": 1,
+    "scrollY": 0,
+    "scrollMaxY": 0
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "link",
+      "label": "SunPlaza Pharmacy",
+      "rect": {
+        "x": 192,
+        "y": 22,
+        "w": 189,
+        "h": 22
+      }
+    },
+    {
+      "id": 2,
+      "role": "link",
+      "label": "Home",
+      "rect": {
+        "x": 580,
+        "y": 22,
+        "w": 43,
+        "h": 22
+      }
+    },
+    {
+      "id": 3,
+      "role": "link",
+      "label": "Pharmacy",
+      "rect": {
+        "x": 646,
+        "y": 22,
+        "w": 72,
+        "h": 22
+      }
+    },
+    {
+      "id": 4,
+      "role": "link",
+      "label": "Health services",
+      "rect": {
+        "x": 742,
+        "y": 22,
+        "w": 111,
+        "h": 22
+      }
+    },
+    {
+      "id": 5,
+      "role": "button",
+      "label": "Shop",
+      "rect": {
+        "x": 877,
+        "y": 21,
+        "w": 48,
+        "h": 24
+      }
+    },
+    {
+      "id": 6,
+      "role": "button",
+      "label": "Photo",
+      "rect": {
+        "x": 949,
+        "y": 21,
+        "w": 53,
+        "h": 24
+      }
+    },
+    {
+      "id": 7,
+      "role": "button",
+      "label": "Store locator",
+      "rect": {
+        "x": 1026,
+        "y": 21,
+        "w": 105,
+        "h": 24
+      }
+    },
+    {
+      "id": 8,
+      "role": "button",
+      "label": "Hi, Edwin",
+      "rect": {
+        "x": 1154,
+        "y": 14,
+        "w": 94,
+        "h": 37
+      }
+    },
+    {
+      "id": 9,
+      "role": "tab",
+      "label": "Allergies",
+      "rect": {
+        "x": 192,
+        "y": 150,
+        "w": 105,
+        "h": 46
+      },
+      "checked": true
+    },
+    {
+      "id": 10,
+      "role": "tab",
+      "label": "Lab results",
+      "rect": {
+        "x": 303,
+        "y": 150,
+        "w": 125,
+        "h": 46
+      },
+      "checked": false
+    },
+    {
+      "id": 11,
+      "role": "tab",
+      "label": "Immunizations",
+      "rect": {
+        "x": 434,
+        "y": 150,
+        "w": 157,
+        "h": 46
+      },
+      "checked": false
+    },
+    {
+      "id": 12,
+      "role": "tab",
+      "label": "Medications",
+      "rect": {
+        "x": 597,
+        "y": 150,
+        "w": 134,
+        "h": 46
+      },
+      "checked": false
+    },
+    {
+      "id": 13,
+      "role": "tab",
+      "label": "Care team",
+      "rect": {
+        "x": 736,
+        "y": 150,
+        "w": 118,
+        "h": 46
+      },
+      "checked": false
+    },
+    {
+      "id": 14,
+      "role": "heading",
+      "label": "My health record",
+      "rect": {
+        "x": 192,
+        "y": 95,
+        "w": 1056,
+        "h": 47
+      }
+    }
+  ],
+  "history": [
+    {
+      "action": "click",
+      "elementLabel": "Health services",
+      "instruction": "Click the Health services link at the top to find your allergies.",
+      "outcome": "completed",
+      "turn": 1,
+      "url": "http://localhost:3002/"
+    },
+    {
+      "action": "click",
+      "elementLabel": "\u269b Lab tests Book bloodwork and screenings",
+      "instruction": "Click the Lab tests button to see more health information.",
+      "outcome": "completed",
+      "turn": 2,
+      "url": "http://localhost:3002/care"
+    },
+    {
+      "action": "click",
+      "elementLabel": "+ Book an appointment See a doctor or nurse practitioner",
+      "instruction": "Click the Book an appointment button to see more health information.",
+      "outcome": "completed",
+      "turn": 3,
+      "url": "http://localhost:3002/care"
+    },
+    {
+      "action": "type",
+      "elementLabel": "Username",
+      "instruction": "Type your username in the box labeled Username.",
+      "outcome": "completed",
+      "turn": 4,
+      "url": "http://localhost:3002/login?next=%2Fcare%2Fappointments%2Fnew"
+    },
+    {
+      "action": "type",
+      "elementLabel": "Password",
+      "instruction": "Type your password in the box labeled Password.",
+      "outcome": "completed",
+      "turn": 5,
+      "url": "http://localhost:3002/login?next=%2Fcare%2Fappointments%2Fnew"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Sign in",
+      "instruction": "Click the green Sign in button at the center of the page.",
+      "outcome": "completed",
+      "turn": 6,
+      "url": "http://localhost:3002/login?next=%2Fcare%2Fappointments%2Fnew"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Hi, Edwin",
+      "instruction": "Click the Hi, Edwin button at the top right to view your profile.",
+      "outcome": "completed",
+      "turn": 7,
+      "url": "http://localhost:3002/care/appointments/new"
+    },
+    {
+      "action": "click",
+      "elementLabel": "My health record",
+      "instruction": "Click the My health record link in the dropdown menu.",
+      "outcome": "completed",
+      "turn": 8,
+      "url": "http://localhost:3002/care/appointments/new"
+    }
+  ],
+  "timings": {
+    "scanMs": 33,
+    "captureMs": 48,
+    "marksMs": 39,
+    "settleMs": 597
+  }
+}

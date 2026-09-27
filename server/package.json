@@ -1,0 +1,23 @@
+{
+  "name": "pointr-server",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node --watch --env-file=.env server.ts",
+    "start": "node --env-file=.env server.ts",
+    "try": "node --env-file=.env scripts/try-fixture.ts",
+    "typecheck": "tsc --noEmit",
+    "bakeoff": "node --env-file=.env scripts/bakeoff.ts",
+    "fixture": "node scripts/make-fixture.ts",
+    "timings": "node scripts/timings.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "jpeg-js": "^0.4.4",
+    "typescript": "^5.7.0"
+  }
+}

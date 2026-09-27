@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "Pointr",
+  "version": "0.2.0",
+  "description": "Step-by-step visual guide for any website.",
+  "background": { "service_worker": "background.js", "type": "module" },
+  "permissions": ["storage", "tabs", "activeTab", "scripting", "offscreen"],
+  "host_permissions": ["<all_urls>", "http://localhost:8787/*"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "content/styles.js",
+        "content/config.js",
+        "content/icons.js",
+        "content/scanner.js",
+        "content/overlay.js",
+        "content/watcher.js",
+        "content/widget.js",
+        "content/voice.js",
+        "content/main.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["fonts/*.woff2"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "commands": {
+    "toggle-voice": {
+      "suggested_key": { "default": "Alt+X" },
+      "description": "Talk to Pointr (press again to finish)"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

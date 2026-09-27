@@ -1,0 +1,466 @@
+{
+  "sessionId": "fixture-groc-home-add-milk",
+  "turn": 1,
+  "goal": "order milk, eggs and bread for pickup",
+  "page": {
+    "url": "http://localhost:3003/",
+    "title": "FreshCart",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "devicePixelRatio": 1,
+    "scrollY": 0,
+    "scrollMaxY": 274
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "button",
+      "label": "Open menu",
+      "rect": {
+        "x": 164,
+        "y": 15,
+        "w": 42,
+        "h": 42
+      }
+    },
+    {
+      "id": 2,
+      "role": "link",
+      "label": "FreshCart",
+      "rect": {
+        "x": 220,
+        "y": 21,
+        "w": 105,
+        "h": 29
+      }
+    },
+    {
+      "id": 3,
+      "role": "button",
+      "label": "Shopping at Aisle 8 Market - Coral Way",
+      "rect": {
+        "x": 339,
+        "y": 17,
+        "w": 311,
+        "h": 38
+      }
+    },
+    {
+      "id": 4,
+      "role": "textbox",
+      "label": "Search products",
+      "rect": {
+        "x": 674,
+        "y": 14,
+        "w": 480,
+        "h": 44
+      },
+      "inputType": "text",
+      "hasValue": false
+    },
+    {
+      "id": 5,
+      "role": "button",
+      "label": "Account",
+      "rect": {
+        "x": 1178,
+        "y": 15,
+        "w": 42,
+        "h": 42
+      }
+    },
+    {
+      "id": 6,
+      "role": "button",
+      "label": "Cart, 0 items",
+      "rect": {
+        "x": 1234,
+        "y": 15,
+        "w": 42,
+        "h": 42
+      }
+    },
+    {
+      "id": 7,
+      "role": "link",
+      "label": "🍌 Bananas per lb $0.59",
+      "rect": {
+        "x": 181,
+        "y": 341,
+        "w": 140,
+        "h": 110
+      }
+    },
+    {
+      "id": 8,
+      "role": "button",
+      "label": "Add Bananas to cart",
+      "rect": {
+        "x": 289,
+        "y": 442,
+        "w": 34,
+        "h": 34
+      }
+    },
+    {
+      "id": 9,
+      "role": "link",
+      "label": "🍅 Roma Tomatoes per lb $1.79",
+      "rect": {
+        "x": 369,
+        "y": 341,
+        "w": 140,
+        "h": 110
+      }
+    },
+    {
+      "id": 10,
+      "role": "button",
+      "label": "Add Roma Tomatoes to cart",
+      "rect": {
+        "x": 476,
+        "y": 442,
+        "w": 34,
+        "h": 34
+      }
+    },
+    {
+      "id": 11,
+      "role": "link",
+      "label": "🥑 Avocados 2 ct $2.49",
+      "rect": {
+        "x": 556,
+        "y": 341,
+        "w": 140,
+        "h": 110
+      }
+    },
+    {
+      "id": 12,
+      "role": "button",
+      "label": "Add Avocados to cart",
+      "rect": {
+        "x": 664,
+        "y": 442,
+        "w": 34,
+        "h": 34
+      }
+    },
+    {
+      "id": 13,
+      "role": "link",
+      "label": "🥕 Baby Carrots 16 oz bag $1.99",
+      "rect": {
+        "x": 744,
+        "y": 341,
+        "w": 140,
+        "h": 110
+      }
+    },
+    {
+      "id": 14,
+      "role": "button",
+      "label": "Add Baby Carrots to cart",
+      "rect": {
+        "x": 852,
+        "y": 442,
+        "w": 34,
+        "h": 34
+      }
+    },
+    {
+      "id": 15,
+      "role": "link",
+      "label": "🫑 Bell Peppers 3 ct $3.49",
+      "rect": {
+        "x": 932,
+        "y": 341,
+        "w": 140,
+        "h": 110
+      }
+    },
+    {
+      "id": 16,
+      "role": "button",
+      "label": "Add Bell Peppers to cart",
+      "rect": {
+        "x": 1039,
+        "y": 442,
+        "w": 34,
+        "h": 34
+      }
+    },
+    {
+      "id": 17,
+      "role": "link",
+      "label": "🥬 Romaine Lettuce 1 head $2.29",
+      "rect": {
+        "x": 1119,
+        "y": 341,
+        "w": 140,
+        "h": 133
+      }
+    },
+    {
+      "id": 18,
+      "role": "button",
+      "label": "Add Romaine Lettuce to cart",
+      "rect": {
+        "x": 1227,
+        "y": 442,
+        "w": 34,
+        "h": 34
+      }
+    },
+    {
+      "id": 19,
+      "role": "link",
+      "label": "🥛 Whole Milk 1 gal $4.29",
+      "rect": {
+        "x": 181,
+        "y": 592,
+        "w": 140,
+        "h": 110
+      }
+    },
+    {
+      "id": 20,
+      "role": "button",
+      "label": "Add Whole Milk to cart",
+      "rect": {
+        "x": 289,
+        "y": 693,
+        "w": 34,
+        "h": 34
+      }
+    },
+    {
+      "id": 21,
+      "role": "link",
+      "label": "🥚 Large White Eggs 12 ct $3.49",
+      "rect": {
+        "x": 369,
+        "y": 592,
+        "w": 140,
+        "h": 133
+      }
+    },
+    {
+      "id": 22,
+      "role": "button",
+      "label": "Add Large White Eggs to cart",
+      "rect": {
+        "x": 476,
+        "y": 693,
+        "w": 34,
+        "h": 34
+      }
+    },
+    {
+      "id": 23,
+      "role": "link",
+      "label": "🍞 White Sandwich Bread 20 oz $2.99",
+      "rect": {
+        "x": 556,
+        "y": 592,
+        "w": 140,
+        "h": 133
+      }
+    },
+    {
+      "id": 24,
+      "role": "button",
+      "label": "Add White Sandwich Bread to cart",
+      "rect": {
+        "x": 664,
+        "y": 693,
+        "w": 34,
+        "h": 34
+      }
+    },
+    {
+      "id": 25,
+      "role": "link",
+      "label": "🥯 Bagels 6 ct $3.99",
+      "rect": {
+        "x": 744,
+        "y": 592,
+        "w": 140,
+        "h": 110
+      }
+    },
+    {
+      "id": 26,
+      "role": "button",
+      "label": "Add Bagels to cart",
+      "rect": {
+        "x": 852,
+        "y": 693,
+        "w": 34,
+        "h": 34
+      }
+    },
+    {
+      "id": 27,
+      "role": "link",
+      "label": "🧈 Salted Butter 1 lb $4.49",
+      "rect": {
+        "x": 932,
+        "y": 592,
+        "w": 140,
+        "h": 110
+      }
+    },
+    {
+      "id": 28,
+      "role": "button",
+      "label": "Add Salted Butter to cart",
+      "rect": {
+        "x": 1039,
+        "y": 693,
+        "w": 34,
+        "h": 34
+      }
+    },
+    {
+      "id": 29,
+      "role": "link",
+      "label": "☕ Ground Coffee 12 oz $7.99",
+      "rect": {
+        "x": 1119,
+        "y": 592,
+        "w": 140,
+        "h": 110
+      }
+    },
+    {
+      "id": 30,
+      "role": "button",
+      "label": "Add Ground Coffee to cart",
+      "rect": {
+        "x": 1227,
+        "y": 693,
+        "w": 34,
+        "h": 34
+      }
+    },
+    {
+      "id": 31,
+      "role": "link",
+      "label": "🥤 Cola 12 pk $5.49",
+      "rect": {
+        "x": 181,
+        "y": 844,
+        "w": 140,
+        "h": 110
+      }
+    },
+    {
+      "id": 32,
+      "role": "link",
+      "label": "🌽 Tortilla Chips 12 oz $3.29",
+      "rect": {
+        "x": 369,
+        "y": 844,
+        "w": 140,
+        "h": 110
+      }
+    },
+    {
+      "id": 33,
+      "role": "link",
+      "label": "🍦 Vanilla Ice Cream 48 oz $4.99",
+      "rect": {
+        "x": 556,
+        "y": 844,
+        "w": 140,
+        "h": 133
+      }
+    },
+    {
+      "id": 34,
+      "role": "link",
+      "label": "🍕 Frozen Pepperoni Pizza 12 in $5.49",
+      "rect": {
+        "x": 744,
+        "y": 844,
+        "w": 140,
+        "h": 133
+      }
+    },
+    {
+      "id": 35,
+      "role": "link",
+      "label": "🫧 Sparkling Water 12 pk $4.49",
+      "rect": {
+        "x": 932,
+        "y": 844,
+        "w": 140,
+        "h": 110
+      }
+    },
+    {
+      "id": 36,
+      "role": "link",
+      "label": "🥜 Mixed Nuts 10 oz $5.99",
+      "rect": {
+        "x": 1119,
+        "y": 844,
+        "w": 140,
+        "h": 110
+      }
+    },
+    {
+      "id": 37,
+      "role": "heading",
+      "label": "Groceries from your neighborhood store",
+      "rect": {
+        "x": 164,
+        "y": 117,
+        "w": 1112,
+        "h": 48
+      }
+    },
+    {
+      "id": 38,
+      "role": "heading",
+      "label": "Fresh picks",
+      "rect": {
+        "x": 164,
+        "y": 269,
+        "w": 148,
+        "h": 35
+      }
+    },
+    {
+      "id": 39,
+      "role": "heading",
+      "label": "Breakfast basics",
+      "rect": {
+        "x": 164,
+        "y": 521,
+        "w": 217,
+        "h": 35
+      }
+    },
+    {
+      "id": 40,
+      "role": "heading",
+      "label": "Deals",
+      "rect": {
+        "x": 164,
+        "y": 772,
+        "w": 73,
+        "h": 35
+      }
+    }
+  ],
+  "history": [],
+  "timings": {
+    "scanMs": 34,
+    "captureMs": 33,
+    "marksMs": 40
+  }
+}

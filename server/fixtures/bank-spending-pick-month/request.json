@@ -1,0 +1,640 @@
+{
+  "sessionId": "fixture-bank-spending-pick-month",
+  "turn": 6,
+  "goal": "how much did I spend on groceries last month?",
+  "page": {
+    "url": "http://localhost:3001/spending",
+    "title": "Harbor Bank",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "devicePixelRatio": 1,
+    "scrollY": 0,
+    "scrollMaxY": 202
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "button",
+      "label": "Locations",
+      "rect": {
+        "x": 150,
+        "y": 6,
+        "w": 59,
+        "h": 18
+      }
+    },
+    {
+      "id": 2,
+      "role": "button",
+      "label": "Contact us",
+      "rect": {
+        "x": 229,
+        "y": 6,
+        "w": 67,
+        "h": 18
+      }
+    },
+    {
+      "id": 3,
+      "role": "button",
+      "label": "Español",
+      "rect": {
+        "x": 316,
+        "y": 6,
+        "w": 49,
+        "h": 18
+      }
+    },
+    {
+      "id": 4,
+      "role": "button",
+      "label": "Search Harbor Bank",
+      "rect": {
+        "x": 1247,
+        "y": 6,
+        "w": 43,
+        "h": 18
+      }
+    },
+    {
+      "id": 5,
+      "role": "link",
+      "label": "H Harbor Bank",
+      "rect": {
+        "x": 150,
+        "y": 44,
+        "w": 174,
+        "h": 28
+      }
+    },
+    {
+      "id": 6,
+      "role": "link",
+      "label": "Personal",
+      "rect": {
+        "x": 356,
+        "y": 48,
+        "w": 58,
+        "h": 20
+      }
+    },
+    {
+      "id": 7,
+      "role": "link",
+      "label": "Spending insights",
+      "rect": {
+        "x": 432,
+        "y": 48,
+        "w": 123,
+        "h": 20
+      },
+      "focused": true
+    },
+    {
+      "id": 8,
+      "role": "button",
+      "label": "Business",
+      "rect": {
+        "x": 573,
+        "y": 48,
+        "w": 61,
+        "h": 20
+      }
+    },
+    {
+      "id": 9,
+      "role": "button",
+      "label": "Credit Cards",
+      "rect": {
+        "x": 651,
+        "y": 48,
+        "w": 85,
+        "h": 20
+      }
+    },
+    {
+      "id": 10,
+      "role": "button",
+      "label": "Loans",
+      "rect": {
+        "x": 754,
+        "y": 48,
+        "w": 40,
+        "h": 20
+      }
+    },
+    {
+      "id": 11,
+      "role": "button",
+      "label": "Mortgages",
+      "rect": {
+        "x": 812,
+        "y": 48,
+        "w": 73,
+        "h": 20
+      }
+    },
+    {
+      "id": 12,
+      "role": "button",
+      "label": "Investing",
+      "rect": {
+        "x": 903,
+        "y": 48,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "id": 13,
+      "role": "button",
+      "label": "Learn",
+      "rect": {
+        "x": 984,
+        "y": 48,
+        "w": 38,
+        "h": 20
+      }
+    },
+    {
+      "id": 14,
+      "role": "link",
+      "label": "Help",
+      "rect": {
+        "x": 1041,
+        "y": 48,
+        "w": 31,
+        "h": 20
+      }
+    },
+    {
+      "id": 15,
+      "role": "button",
+      "label": "Log out",
+      "rect": {
+        "x": 1209,
+        "y": 42,
+        "w": 81,
+        "h": 33
+      }
+    },
+    {
+      "id": 16,
+      "role": "combobox",
+      "label": "Month",
+      "rect": {
+        "x": 150,
+        "y": 197,
+        "w": 320,
+        "h": 41
+      },
+      "hasValue": true
+    },
+    {
+      "id": 17,
+      "role": "button",
+      "label": "Groceries",
+      "rect": {
+        "x": 468,
+        "y": 301,
+        "w": 218,
+        "h": 32
+      }
+    },
+    {
+      "id": 18,
+      "role": "button",
+      "label": "Dining",
+      "rect": {
+        "x": 468,
+        "y": 354,
+        "w": 218,
+        "h": 32
+      }
+    },
+    {
+      "id": 19,
+      "role": "button",
+      "label": "Gas",
+      "rect": {
+        "x": 468,
+        "y": 407,
+        "w": 218,
+        "h": 32
+      }
+    },
+    {
+      "id": 20,
+      "role": "button",
+      "label": "Utilities",
+      "rect": {
+        "x": 468,
+        "y": 459,
+        "w": 218,
+        "h": 32
+      }
+    },
+    {
+      "id": 21,
+      "role": "button",
+      "label": "Shopping",
+      "rect": {
+        "x": 468,
+        "y": 512,
+        "w": 218,
+        "h": 32
+      }
+    },
+    {
+      "id": 22,
+      "role": "button",
+      "label": "Health",
+      "rect": {
+        "x": 468,
+        "y": 565,
+        "w": 218,
+        "h": 32
+      }
+    },
+    {
+      "id": 23,
+      "role": "button",
+      "label": "Entertainment",
+      "rect": {
+        "x": 468,
+        "y": 617,
+        "w": 218,
+        "h": 32
+      }
+    },
+    {
+      "id": 24,
+      "role": "button",
+      "label": "Transportation",
+      "rect": {
+        "x": 468,
+        "y": 670,
+        "w": 218,
+        "h": 32
+      }
+    },
+    {
+      "id": 25,
+      "role": "button",
+      "label": "Checking",
+      "rect": {
+        "x": 150,
+        "y": 873,
+        "w": 59,
+        "h": 19
+      }
+    },
+    {
+      "id": 26,
+      "role": "button",
+      "label": "Savings",
+      "rect": {
+        "x": 150,
+        "y": 898,
+        "w": 50,
+        "h": 19
+      }
+    },
+    {
+      "id": 27,
+      "role": "button",
+      "label": "Personal loans",
+      "rect": {
+        "x": 382,
+        "y": 873,
+        "w": 92,
+        "h": 19
+      }
+    },
+    {
+      "id": 28,
+      "role": "button",
+      "label": "Auto loans",
+      "rect": {
+        "x": 382,
+        "y": 898,
+        "w": 68,
+        "h": 19
+      }
+    },
+    {
+      "id": 29,
+      "role": "button",
+      "label": "Business checking",
+      "rect": {
+        "x": 613,
+        "y": 873,
+        "w": 118,
+        "h": 19
+      }
+    },
+    {
+      "id": 30,
+      "role": "button",
+      "label": "Merchant services",
+      "rect": {
+        "x": 613,
+        "y": 898,
+        "w": 117,
+        "h": 19
+      }
+    },
+    {
+      "id": 31,
+      "role": "button",
+      "label": "Financial education",
+      "rect": {
+        "x": 845,
+        "y": 873,
+        "w": 124,
+        "h": 19
+      }
+    },
+    {
+      "id": 32,
+      "role": "button",
+      "label": "Calculators",
+      "rect": {
+        "x": 845,
+        "y": 898,
+        "w": 72,
+        "h": 19
+      }
+    },
+    {
+      "id": 33,
+      "role": "button",
+      "label": "About Harbor Bank",
+      "rect": {
+        "x": 1076,
+        "y": 873,
+        "w": 122,
+        "h": 19
+      }
+    },
+    {
+      "id": 34,
+      "role": "button",
+      "label": "Careers",
+      "rect": {
+        "x": 1076,
+        "y": 898,
+        "w": 49,
+        "h": 19
+      }
+    },
+    {
+      "id": 35,
+      "role": "heading",
+      "label": "Spending insights",
+      "rect": {
+        "x": 150,
+        "y": 121,
+        "w": 1140,
+        "h": 44
+      }
+    },
+    {
+      "id": 36,
+      "role": "text",
+      "label": "$1,286.15",
+      "rect": {
+        "x": 231,
+        "y": 338,
+        "w": 117,
+        "h": 30
+      }
+    },
+    {
+      "id": 37,
+      "role": "text",
+      "label": "$287.14",
+      "rect": {
+        "x": 700,
+        "y": 291,
+        "w": 155,
+        "h": 53
+      }
+    },
+    {
+      "id": 38,
+      "role": "text",
+      "label": "22%",
+      "rect": {
+        "x": 855,
+        "y": 291,
+        "w": 196,
+        "h": 53
+      }
+    },
+    {
+      "id": 39,
+      "role": "text",
+      "label": "$31.66",
+      "rect": {
+        "x": 700,
+        "y": 343,
+        "w": 155,
+        "h": 53
+      }
+    },
+    {
+      "id": 40,
+      "role": "text",
+      "label": "2%",
+      "rect": {
+        "x": 855,
+        "y": 343,
+        "w": 196,
+        "h": 53
+      }
+    },
+    {
+      "id": 41,
+      "role": "text",
+      "label": "$74.56",
+      "rect": {
+        "x": 700,
+        "y": 396,
+        "w": 155,
+        "h": 53
+      }
+    },
+    {
+      "id": 42,
+      "role": "text",
+      "label": "6%",
+      "rect": {
+        "x": 855,
+        "y": 396,
+        "w": 196,
+        "h": 53
+      }
+    },
+    {
+      "id": 43,
+      "role": "text",
+      "label": "$285.59",
+      "rect": {
+        "x": 700,
+        "y": 449,
+        "w": 155,
+        "h": 53
+      }
+    },
+    {
+      "id": 44,
+      "role": "text",
+      "label": "22%",
+      "rect": {
+        "x": 855,
+        "y": 449,
+        "w": 196,
+        "h": 53
+      }
+    },
+    {
+      "id": 45,
+      "role": "text",
+      "label": "$317.18",
+      "rect": {
+        "x": 700,
+        "y": 502,
+        "w": 155,
+        "h": 53
+      }
+    },
+    {
+      "id": 46,
+      "role": "text",
+      "label": "25%",
+      "rect": {
+        "x": 855,
+        "y": 502,
+        "w": 196,
+        "h": 53
+      }
+    },
+    {
+      "id": 47,
+      "role": "text",
+      "label": "$48.73",
+      "rect": {
+        "x": 700,
+        "y": 554,
+        "w": 155,
+        "h": 53
+      }
+    },
+    {
+      "id": 48,
+      "role": "text",
+      "label": "4%",
+      "rect": {
+        "x": 855,
+        "y": 554,
+        "w": 196,
+        "h": 53
+      }
+    },
+    {
+      "id": 49,
+      "role": "text",
+      "label": "$92.57",
+      "rect": {
+        "x": 700,
+        "y": 607,
+        "w": 155,
+        "h": 53
+      }
+    },
+    {
+      "id": 50,
+      "role": "text",
+      "label": "7%",
+      "rect": {
+        "x": 855,
+        "y": 607,
+        "w": 196,
+        "h": 53
+      }
+    },
+    {
+      "id": 51,
+      "role": "text",
+      "label": "$148.72",
+      "rect": {
+        "x": 700,
+        "y": 660,
+        "w": 155,
+        "h": 53
+      }
+    },
+    {
+      "id": 52,
+      "role": "text",
+      "label": "12%",
+      "rect": {
+        "x": 855,
+        "y": 660,
+        "w": 196,
+        "h": 53
+      }
+    }
+  ],
+  "history": [
+    {
+      "action": "type",
+      "elementLabel": "Username",
+      "instruction": "Type your username in the box labeled Username.",
+      "outcome": "completed",
+      "turn": 1,
+      "url": "http://localhost:3001/"
+    },
+    {
+      "action": "type",
+      "elementLabel": "Password",
+      "instruction": "Type your password in the box labeled Password.",
+      "outcome": "completed",
+      "turn": 2,
+      "url": "http://localhost:3001/"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Sign in",
+      "instruction": "Click the yellow Sign in button.",
+      "outcome": "completed",
+      "turn": 3,
+      "url": "http://localhost:3001/"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Statements",
+      "instruction": "Click the Statements link at the bottom of the menu.",
+      "outcome": "completed",
+      "turn": 4,
+      "url": "http://localhost:3001/accounts"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Spending insights",
+      "instruction": "Click the Spending insights link in the menu.",
+      "outcome": "completed",
+      "turn": 5,
+      "url": "http://localhost:3001/statements"
+    }
+  ],
+  "timings": {
+    "scanMs": 33,
+    "captureMs": 39,
+    "marksMs": 36,
+    "settleMs": 611
+  }
+}

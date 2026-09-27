@@ -1,0 +1,189 @@
+{
+  "sessionId": "fixture-pharm-refill-card",
+  "turn": 2,
+  "goal": "refill my blood pressure medicine",
+  "page": {
+    "url": "http://localhost:3002/pharmacy",
+    "title": "SunPlaza Pharmacy",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "devicePixelRatio": 1,
+    "scrollY": 0,
+    "scrollMaxY": 0
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "link",
+      "label": "SunPlaza Pharmacy",
+      "rect": {
+        "x": 192,
+        "y": 21,
+        "w": 189,
+        "h": 22
+      }
+    },
+    {
+      "id": 2,
+      "role": "link",
+      "label": "Home",
+      "rect": {
+        "x": 593,
+        "y": 21,
+        "w": 43,
+        "h": 22
+      }
+    },
+    {
+      "id": 3,
+      "role": "link",
+      "label": "Pharmacy",
+      "rect": {
+        "x": 660,
+        "y": 21,
+        "w": 72,
+        "h": 22
+      },
+      "focused": true
+    },
+    {
+      "id": 4,
+      "role": "link",
+      "label": "Health services",
+      "rect": {
+        "x": 755,
+        "y": 21,
+        "w": 111,
+        "h": 22
+      }
+    },
+    {
+      "id": 5,
+      "role": "button",
+      "label": "Shop",
+      "rect": {
+        "x": 890,
+        "y": 20,
+        "w": 48,
+        "h": 24
+      }
+    },
+    {
+      "id": 6,
+      "role": "button",
+      "label": "Photo",
+      "rect": {
+        "x": 962,
+        "y": 20,
+        "w": 53,
+        "h": 24
+      }
+    },
+    {
+      "id": 7,
+      "role": "button",
+      "label": "Store locator",
+      "rect": {
+        "x": 1039,
+        "y": 20,
+        "w": 105,
+        "h": 24
+      }
+    },
+    {
+      "id": 8,
+      "role": "link",
+      "label": "Sign in",
+      "rect": {
+        "x": 1168,
+        "y": 14,
+        "w": 80,
+        "h": 36
+      }
+    },
+    {
+      "id": 9,
+      "role": "link",
+      "label": "Rx Refill a prescription Reorder medicine you already take",
+      "rect": {
+        "x": 192,
+        "y": 194,
+        "w": 520,
+        "h": 135
+      }
+    },
+    {
+      "id": 10,
+      "role": "button",
+      "label": "⇄ Transfer a prescription Move a prescription from another pharmacy",
+      "rect": {
+        "x": 728,
+        "y": 194,
+        "w": 520,
+        "h": 135
+      }
+    },
+    {
+      "id": 11,
+      "role": "button",
+      "label": "? Talk to a pharmacist Chat or call, 24 hours a day",
+      "rect": {
+        "x": 192,
+        "y": 346,
+        "w": 520,
+        "h": 135
+      }
+    },
+    {
+      "id": 12,
+      "role": "link",
+      "label": "✓ Order history Track your recent pickups",
+      "rect": {
+        "x": 728,
+        "y": 346,
+        "w": 520,
+        "h": 135
+      }
+    },
+    {
+      "id": 13,
+      "role": "button",
+      "label": "+ Vaccines Schedule a shot",
+      "rect": {
+        "x": 192,
+        "y": 497,
+        "w": 520,
+        "h": 135
+      }
+    },
+    {
+      "id": 14,
+      "role": "heading",
+      "label": "Pharmacy",
+      "rect": {
+        "x": 192,
+        "y": 94,
+        "w": 1056,
+        "h": 47
+      }
+    }
+  ],
+  "history": [
+    {
+      "action": "click",
+      "elementLabel": "Pharmacy",
+      "instruction": "Click the Pharmacy link at the top of the page.",
+      "outcome": "completed",
+      "turn": 1,
+      "url": "http://localhost:3002/"
+    }
+  ],
+  "timings": {
+    "scanMs": 31,
+    "captureMs": 38,
+    "marksMs": 54,
+    "settleMs": 597
+  }
+}

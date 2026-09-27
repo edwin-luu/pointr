@@ -1,0 +1,13 @@
+{
+  "name": "pointr-e2e",
+  "private": true,
+  "type": "module",
+  "description": "Robot tester: drives the real unpacked Pointr extension in Playwright Chromium against the demo apps.",
+  "scripts": {
+    "setup": "bash setup.sh",
+    "goal": "node run-goal.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.63.0"
+  }
+}

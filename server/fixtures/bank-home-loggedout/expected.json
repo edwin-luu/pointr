@@ -1,0 +1,16 @@
+{
+  "acceptableIds": [
+    17
+  ],
+  "action": "type",
+  "alsoOk": [
+    {
+      "action": "click",
+      "acceptableIds": [
+        14
+      ]
+    }
+  ],
+  "note": "logged out: sign in first (type username, or the header Sign in link), not the Credit Cards menu",
+  "source": "20260926-225033-666-3fa84e41-t1"
+}

@@ -1,0 +1,12 @@
+# Local services the backend talks to. Start with: docker compose up -d --build whisper
+services:
+  whisper:
+    build:
+      context: ./voice
+      args:
+        WHISPER_MODEL: ${WHISPER_MODEL:-base.en}
+    ports:
+      - "127.0.0.1:8790:8790"
+    environment:
+      WHISPER_THREADS: "8"
+    restart: unless-stopped

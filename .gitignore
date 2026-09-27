@@ -1,0 +1,13 @@
+node_modules/
+.env
+**/.env
+server/logs/
+*.log
+.claude
+dist/
+*:Zone.Identifier
+demo-apps/hub/data/
+scripts/e2e/.libs/
+scripts/e2e/.out/
+# Local-only notes (build log, plans, live-demo cheat sheet); not part of the public repo
+notes/

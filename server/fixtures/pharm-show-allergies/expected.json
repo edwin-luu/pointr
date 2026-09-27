@@ -1,0 +1,9 @@
+{
+  "acceptableIds": [
+    9
+  ],
+  "action": "show",
+  "done": true,
+  "note": "health record open on Allergies: show it (answer Penicillin, Sulfa) (tab checked flags added to match the M5 scanner, which reports aria-selected on tabs)",
+  "source": "20260926-225743-060-3830df07-t9"
+}

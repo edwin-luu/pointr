@@ -1,0 +1,8 @@
+{
+  "acceptableIds": [
+    16
+  ],
+  "action": "click",
+  "note": "page shows September (month to date); last month = August: change the Month select",
+  "source": "20260926-225719-817-9c9e20d3-t6"
+}

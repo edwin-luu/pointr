@@ -1,0 +1,9 @@
+{
+  "acceptableIds": [
+    20,
+    17
+  ],
+  "action": "click",
+  "note": "Robot pressed Back on /pay-card (last step 'Pay from' -> page_changed). The Pay-from step was NOT done; from /accounts the way back is Pay card (20) or the Visa tile (17). M6 suite: model clicked Everyday Checking (15) 'to pay from' in 3/3 runs.",
+  "source": "20260927-005704-899-479f15f9-t6"
+}

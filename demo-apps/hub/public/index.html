@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pointr Demo Hub</title>
+<style>
+  :root{
+    --navy:#26235C; --navy-2:#343078; --yellow:#FFD23F; --yellow-ink:#26235C;
+    --bg:#F3F3F9; --ink:#1D1B45; --muted:#5B587E; --line:#E1E0EE; --card:#fff;
+    --green:#1F8A4C; --red:#C6403A;
+    font-family:"Segoe UI", system-ui, -apple-system, sans-serif;
+  }
+  *,*::before,*::after{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink)}
+  button,input{font:inherit}
+  :focus-visible{outline:3px solid var(--navy);outline-offset:2px}
+
+  header{background:var(--navy);color:#fff;padding:26px 28px}
+  header .wrap{max-width:1080px;margin:0 auto;display:flex;align-items:center;gap:14px}
+  header svg{flex:none}
+  header h1{margin:0;font-size:1.5rem;letter-spacing:-.01em}
+  header p{margin:2px 0 0;color:#C8C5F0;font-size:.92rem}
+
+  main{max-width:1080px;margin:0 auto;padding:28px 28px 60px}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+
+  .card{background:var(--card);border-radius:16px;padding:22px;box-shadow:0 1px 0 rgba(29,27,69,.04),0 10px 30px rgba(29,27,69,.08);display:flex;flex-direction:column;gap:16px}
+  .card-head{display:flex;align-items:center;gap:10px}
+  .dot{width:10px;height:10px;border-radius:50%;background:var(--red);flex:none;transition:background .2s}
+  .dot.online{background:var(--green)}
+  .card-head h2{margin:0;font-size:1.1rem;flex:1}
+  .port{font-size:.78rem;color:var(--muted);font-variant-numeric:tabular-nums}
+
+  .row{display:flex;gap:10px}
+  .btn{border:0;border-radius:10px;padding:10px 16px;font-size:.9rem;cursor:pointer;font-weight:600;flex:1}
+  .btn-primary{background:var(--navy);color:#fff}
+  .btn-primary:hover{background:var(--navy-2)}
+  .btn-ghost{background:var(--bg);color:var(--navy)}
+  .btn-ghost:hover{background:#E7E6F2}
+
+  .popup-block{border-top:1px solid var(--line);padding-top:14px;display:flex;flex-direction:column;gap:8px}
+  .popup-label{font-size:.85rem;color:var(--muted)}
+  .popup-label b{color:var(--ink);font-weight:600}
+  .slider-row{display:flex;align-items:center;gap:10px}
+  input[type=range]{flex:1;accent-color:var(--navy)}
+  input[type=number]{width:64px;border:1px solid var(--line);border-radius:8px;padding:6px 8px;text-align:right}
+  .quick{display:flex;gap:6px}
+  .quick button{border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:8px;padding:5px 10px;font-size:.78rem;cursor:pointer}
+  .quick button:hover{border-color:var(--navy)}
+  .saved{font-size:.78rem;color:var(--green);min-height:1.1em;opacity:0;transition:opacity .2s}
+  .saved.show{opacity:1}
+
+  footer{max-width:1080px;margin:0 auto;padding:0 28px 40px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+  footer .login{font-size:.88rem;color:var(--muted)}
+  footer .login b{color:var(--ink)}
+  .reset-all{background:transparent;border:1px solid var(--red);color:var(--red);border-radius:10px;padding:9px 16px;font-weight:600;font-size:.88rem;cursor:pointer}
+  .reset-all:hover{background:#FCEBEA}
+  .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <svg width="30" height="34" viewBox="0 0 34 40" aria-hidden="true"><path d="M2 2 L2 32 L10 25 L16 38 L22 35 L16 23 L27 23 Z" fill="#FFD23F" stroke="#fff" stroke-width="1"/></svg>
+    <div>
+      <h1>Pointr Demo Hub</h1>
+      <p>One tab to drive the demo. Open, reset, and tune popup odds for each app.</p>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="grid" id="cards"></div>
+</main>
+
+<footer>
+  <button class="reset-all" id="resetAll" type="button">Reset all apps</button>
+  <p class="login">Demo login: <b>eluu / 1234</b> (Edwin Luu)</p>
+</footer>
+
+<script>
+(function(){
+  var APPS = [
+    { key: "bank", name: "Harbor Bank", port: 3001, popupLabel: "“Go paperless?” dialog after each login" },
+    { key: "pharmacy", name: "SunPlaza Pharmacy", port: 3002, popupLabel: "“Your order is ready for pickup” on each home load" },
+    { key: "grocery", name: "FreshCart", port: 3003, popupLabel: "“50% off your first delivery” on each search" }
+  ];
+  var DEFAULTS = { bank: 0.33, pharmacy: 0.40, grocery: 0.20 };
+  var settings = Object.assign({}, DEFAULTS);
+  var saveTimers = {};
+
+  function $(id){ return document.getElementById(id); }
+  function url(app){ return "http://localhost:" + app.port + "/"; }
+  function resetUrl(app){ return "http://localhost:" + app.port + "/reset"; }
+
+  function cardHtml(app){
+    return (
+      '<div class="card" data-app="' + app.key + '">' +
+        '<div class="card-head">' +
+          '<span class="dot" id="dot-' + app.key + '" aria-hidden="true"></span>' +
+          '<h2>' + app.name + '</h2>' +
+          '<span class="port">:' + app.port + '</span>' +
+        '</div>' +
+        '<div class="row">' +
+          '<button class="btn btn-primary" data-open="' + app.key + '" type="button">Open</button>' +
+          '<button class="btn btn-ghost" data-reset="' + app.key + '" type="button">Reset</button>' +
+        '</div>' +
+        '<div class="popup-block">' +
+          '<p class="popup-label"><b>Popup chance</b> - ' + app.popupLabel + '</p>' +
+          '<div class="slider-row">' +
+            '<label class="sr-only" for="slider-' + app.key + '">Popup chance for ' + app.name + '</label>' +
+            '<input type="range" id="slider-' + app.key + '" min="0" max="1" step="0.01" value="' + DEFAULTS[app.key] + '">' +
+            '<input type="number" id="num-' + app.key + '" min="0" max="1" step="0.01" value="' + DEFAULTS[app.key].toFixed(2) + '" aria-label="Popup chance for ' + app.name + ', 0 to 1">' +
+          '</div>' +
+          '<div class="quick">' +
+            '<button type="button" data-quick="0" data-for="' + app.key + '">Never (0)</button>' +
+            '<button type="button" data-quick="default" data-for="' + app.key + '">Default</button>' +
+            '<button type="button" data-quick="1" data-for="' + app.key + '">Always (1)</button>' +
+          '</div>' +
+          '<p class="saved" id="saved-' + app.key + '" role="status">Saved</p>' +
+        '</div>' +
+      '</div>'
+    );
+  }
+
+  $("cards").innerHTML = APPS.map(cardHtml).join("");
+
+  APPS.forEach(function(app){
+    document.querySelector('[data-open="' + app.key + '"]').addEventListener("click", function(){
+      window.open(url(app), "pointr-" + app.key);
+    });
+    document.querySelector('[data-reset="' + app.key + '"]').addEventListener("click", function(){
+      window.open(resetUrl(app), "pointr-" + app.key);
+    });
+    var slider = $("slider-" + app.key);
+    var num = $("num-" + app.key);
+    slider.addEventListener("input", function(){ num.value = Number(slider.value).toFixed(2); onChange(app.key, Number(slider.value)); });
+    num.addEventListener("input", function(){
+      var v = Math.min(1, Math.max(0, Number(num.value) || 0));
+      slider.value = String(v);
+      onChange(app.key, v);
+    });
+    document.querySelectorAll('[data-quick][data-for="' + app.key + '"]').forEach(function(btn){
+      btn.addEventListener("click", function(){
+        var mode = btn.getAttribute("data-quick");
+        var v = mode === "0" ? 0 : mode === "1" ? 1 : DEFAULTS[app.key];
+        slider.value = String(v);
+        num.value = v.toFixed(2);
+        onChange(app.key, v);
+      });
+    });
+  });
+
+  function onChange(key, value){
+    settings[key] = value;
+    clearTimeout(saveTimers[key]);
+    saveTimers[key] = setTimeout(function(){ save(); }, 300);
+  }
+
+  function save(){
+    fetch("/api/settings", {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ popups: settings })
+    }).then(function(res){
+      if(!res.ok) return;
+      return res.json();
+    }).then(function(data){
+      if(!data) return;
+      settings = data.popups;
+      APPS.forEach(function(app){
+        var saved = $("saved-" + app.key);
+        saved.classList.add("show");
+        setTimeout(function(){ saved.classList.remove("show"); }, 1400);
+      });
+    }).catch(function(){});
+  }
+
+  function loadSettings(){
+    fetch("/api/settings", { cache: "no-store" }).then(function(res){ return res.json(); }).then(function(data){
+      settings = Object.assign({}, DEFAULTS, data.popups);
+      APPS.forEach(function(app){
+        $("slider-" + app.key).value = String(settings[app.key]);
+        $("num-" + app.key).value = settings[app.key].toFixed(2);
+      });
+    }).catch(function(){});
+  }
+  loadSettings();
+
+  function ping(app){
+    var dot = $("dot-" + app.key);
+    fetch(url(app), { mode: "no-cors", cache: "no-store" }).then(function(){
+      dot.classList.add("online");
+    }).catch(function(){
+      dot.classList.remove("online");
+    });
+  }
+  function pingAll(){ APPS.forEach(ping); }
+  pingAll();
+  setInterval(pingAll, 5000);
+
+  $("resetAll").addEventListener("click", function(){
+    APPS.forEach(function(app){ window.open(resetUrl(app), "pointr-" + app.key); });
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "acceptableIds": [
+    3,
+    8
+  ],
+  "action": "click",
+  "note": "Pharmacy menu or Sign in link both lead to refills",
+  "source": "20260926-225109-664-dba2b221-t1"
+}

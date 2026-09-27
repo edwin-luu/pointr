@@ -1,0 +1,79 @@
+{
+  "sessionId": "fixture-groc-promo-close",
+  "turn": 2,
+  "goal": "add whole milk to my cart",
+  "page": {
+    "url": "http://localhost:3003/search?q=milk",
+    "title": "FreshCart",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "devicePixelRatio": 1,
+    "scrollY": 0,
+    "scrollMaxY": 0
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "button",
+      "label": "Close promotion",
+      "rect": {
+        "x": 846,
+        "y": 345,
+        "w": 32,
+        "h": 32
+      },
+      "focused": true
+    },
+    {
+      "id": 2,
+      "role": "button",
+      "label": "Shop deals",
+      "rect": {
+        "x": 716,
+        "y": 489,
+        "w": 129,
+        "h": 44
+      }
+    },
+    {
+      "id": 3,
+      "role": "heading",
+      "label": "50% off your first delivery",
+      "rect": {
+        "x": 562,
+        "y": 345,
+        "w": 272,
+        "h": 58
+      }
+    },
+    {
+      "id": 4,
+      "role": "text",
+      "label": "FRESH50",
+      "rect": {
+        "x": 595,
+        "y": 491,
+        "w": 120,
+        "h": 39
+      }
+    }
+  ],
+  "history": [
+    {
+      "action": "click",
+      "elementLabel": "Add Whole Milk to cart",
+      "instruction": "Click the Add Whole Milk to cart button.",
+      "outcome": "target_covered",
+      "turn": 1,
+      "url": "http://localhost:3003/search?q=milk"
+    }
+  ],
+  "timings": {
+    "scanMs": 26,
+    "captureMs": 27,
+    "marksMs": 27,
+    "settleMs": 601
+  }
+}

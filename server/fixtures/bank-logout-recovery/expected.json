@@ -1,0 +1,8 @@
+{
+  "acceptableIds": [
+    15
+  ],
+  "action": "type",
+  "note": "user logged out mid-payment: sign back in",
+  "source": "20260926-225349-901-b55b176f-t2"
+}

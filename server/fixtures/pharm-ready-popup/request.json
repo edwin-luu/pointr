@@ -1,0 +1,79 @@
+{
+  "sessionId": "fixture-pharm-ready-popup",
+  "turn": 1,
+  "goal": "refill my blood pressure medicine",
+  "page": {
+    "url": "http://localhost:3002/",
+    "title": "SunPlaza Pharmacy",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "devicePixelRatio": 1,
+    "scrollY": 0,
+    "scrollMaxY": 0
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "button",
+      "label": "Close",
+      "rect": {
+        "x": 846,
+        "y": 341,
+        "w": 32,
+        "h": 32
+      }
+    },
+    {
+      "id": 2,
+      "role": "link",
+      "label": "View order",
+      "rect": {
+        "x": 562,
+        "y": 514,
+        "w": 124,
+        "h": 44
+      }
+    },
+    {
+      "id": 3,
+      "role": "button",
+      "label": "Dismiss",
+      "rect": {
+        "x": 696,
+        "y": 514,
+        "w": 101,
+        "h": 44
+      }
+    },
+    {
+      "id": 4,
+      "role": "heading",
+      "label": "Your order is ready for pickup",
+      "rect": {
+        "x": 562,
+        "y": 341,
+        "w": 272,
+        "h": 58
+      }
+    },
+    {
+      "id": 5,
+      "role": "text",
+      "label": "#SP-20418",
+      "rect": {
+        "x": 764,
+        "y": 430,
+        "w": 96,
+        "h": 18
+      }
+    }
+  ],
+  "history": [],
+  "timings": {
+    "scanMs": 31,
+    "captureMs": 29,
+    "marksMs": 34
+  }
+}

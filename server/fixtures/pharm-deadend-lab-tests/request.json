@@ -1,0 +1,207 @@
+{
+  "sessionId": "fixture-pharm-deadend-lab-tests",
+  "turn": 7,
+  "goal": "what was my last A1C?",
+  "page": {
+    "url": "http://localhost:3002/care",
+    "title": "SunPlaza Pharmacy",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "devicePixelRatio": 1,
+    "scrollY": 0,
+    "scrollMaxY": 0
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "link",
+      "label": "SunPlaza Pharmacy",
+      "rect": {
+        "x": 192,
+        "y": 22,
+        "w": 189,
+        "h": 22
+      }
+    },
+    {
+      "id": 2,
+      "role": "link",
+      "label": "Home",
+      "rect": {
+        "x": 580,
+        "y": 22,
+        "w": 43,
+        "h": 22
+      }
+    },
+    {
+      "id": 3,
+      "role": "link",
+      "label": "Pharmacy",
+      "rect": {
+        "x": 646,
+        "y": 22,
+        "w": 72,
+        "h": 22
+      }
+    },
+    {
+      "id": 4,
+      "role": "link",
+      "label": "Health services",
+      "rect": {
+        "x": 742,
+        "y": 22,
+        "w": 111,
+        "h": 22
+      }
+    },
+    {
+      "id": 5,
+      "role": "button",
+      "label": "Shop",
+      "rect": {
+        "x": 877,
+        "y": 21,
+        "w": 48,
+        "h": 24
+      }
+    },
+    {
+      "id": 6,
+      "role": "button",
+      "label": "Photo",
+      "rect": {
+        "x": 949,
+        "y": 21,
+        "w": 53,
+        "h": 24
+      }
+    },
+    {
+      "id": 7,
+      "role": "button",
+      "label": "Store locator",
+      "rect": {
+        "x": 1026,
+        "y": 21,
+        "w": 105,
+        "h": 24
+      }
+    },
+    {
+      "id": 8,
+      "role": "button",
+      "label": "Hi, Edwin",
+      "rect": {
+        "x": 1154,
+        "y": 14,
+        "w": 94,
+        "h": 37
+      }
+    },
+    {
+      "id": 9,
+      "role": "link",
+      "label": "+ Book an appointment See a doctor or nurse practitioner",
+      "rect": {
+        "x": 192,
+        "y": 150,
+        "w": 520,
+        "h": 135
+      }
+    },
+    {
+      "id": 10,
+      "role": "button",
+      "label": "+ Vaccines Schedule a shot",
+      "rect": {
+        "x": 728,
+        "y": 150,
+        "w": 520,
+        "h": 135
+      }
+    },
+    {
+      "id": 11,
+      "role": "button",
+      "label": "⚛ Lab tests Book bloodwork and screenings",
+      "rect": {
+        "x": 192,
+        "y": 301,
+        "w": 520,
+        "h": 135
+      },
+      "focused": true
+    },
+    {
+      "id": 12,
+      "role": "heading",
+      "label": "Health services",
+      "rect": {
+        "x": 192,
+        "y": 95,
+        "w": 1056,
+        "h": 47
+      }
+    }
+  ],
+  "history": [
+    {
+      "action": "click",
+      "elementLabel": "Sign in",
+      "instruction": "Click the Sign in link at the top right.",
+      "outcome": "completed",
+      "turn": 1,
+      "url": "http://localhost:3002/"
+    },
+    {
+      "action": "type",
+      "elementLabel": "Username",
+      "instruction": "Type your username in the box labeled Username.",
+      "outcome": "completed",
+      "turn": 2,
+      "url": "http://localhost:3002/login"
+    },
+    {
+      "action": "type",
+      "elementLabel": "Password",
+      "instruction": "Type your password in the box labeled Password.",
+      "outcome": "completed",
+      "turn": 3,
+      "url": "http://localhost:3002/login"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Sign in",
+      "instruction": "Click the Sign in button to submit the form.",
+      "outcome": "completed",
+      "turn": 4,
+      "url": "http://localhost:3002/login"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Health services",
+      "instruction": "Click the Health services link at the top of the page.",
+      "outcome": "completed",
+      "turn": 5,
+      "url": "http://localhost:3002/"
+    },
+    {
+      "action": "click",
+      "elementLabel": "⚛ Lab tests Book bloodwork and screenings",
+      "instruction": "Click the Lab tests button to see your lab results.",
+      "outcome": "completed",
+      "turn": 6,
+      "url": "http://localhost:3002/care"
+    }
+  ],
+  "timings": {
+    "scanMs": 21,
+    "captureMs": 37,
+    "marksMs": 27,
+    "settleMs": 403
+  }
+}

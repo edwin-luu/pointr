@@ -1,0 +1,156 @@
+{
+  "sessionId": "fixture-pharm-allergies-signed-out",
+  "turn": 1,
+  "goal": "what are my allergies?",
+  "page": {
+    "url": "http://localhost:3002/",
+    "title": "SunPlaza Pharmacy",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "devicePixelRatio": 1,
+    "scrollY": 0,
+    "scrollMaxY": 0
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "link",
+      "label": "SunPlaza Pharmacy",
+      "rect": {
+        "x": 192,
+        "y": 21,
+        "w": 189,
+        "h": 22
+      }
+    },
+    {
+      "id": 2,
+      "role": "link",
+      "label": "Home",
+      "rect": {
+        "x": 593,
+        "y": 21,
+        "w": 43,
+        "h": 22
+      }
+    },
+    {
+      "id": 3,
+      "role": "link",
+      "label": "Pharmacy",
+      "rect": {
+        "x": 660,
+        "y": 21,
+        "w": 72,
+        "h": 22
+      }
+    },
+    {
+      "id": 4,
+      "role": "link",
+      "label": "Health services",
+      "rect": {
+        "x": 755,
+        "y": 21,
+        "w": 111,
+        "h": 22
+      }
+    },
+    {
+      "id": 5,
+      "role": "button",
+      "label": "Shop",
+      "rect": {
+        "x": 890,
+        "y": 20,
+        "w": 48,
+        "h": 24
+      }
+    },
+    {
+      "id": 6,
+      "role": "button",
+      "label": "Photo",
+      "rect": {
+        "x": 962,
+        "y": 20,
+        "w": 53,
+        "h": 24
+      }
+    },
+    {
+      "id": 7,
+      "role": "button",
+      "label": "Store locator",
+      "rect": {
+        "x": 1039,
+        "y": 20,
+        "w": 105,
+        "h": 24
+      }
+    },
+    {
+      "id": 8,
+      "role": "link",
+      "label": "Sign in",
+      "rect": {
+        "x": 1168,
+        "y": 14,
+        "w": 80,
+        "h": 36
+      }
+    },
+    {
+      "id": 9,
+      "role": "button",
+      "label": "Shop weekly deals",
+      "rect": {
+        "x": 224,
+        "y": 281,
+        "w": 187,
+        "h": 44
+      }
+    },
+    {
+      "id": 10,
+      "role": "button",
+      "label": "Find a store",
+      "rect": {
+        "x": 421,
+        "y": 281,
+        "w": 135,
+        "h": 44
+      }
+    },
+    {
+      "id": 11,
+      "role": "heading",
+      "label": "Your neighborhood pharmacy",
+      "rect": {
+        "x": 224,
+        "y": 158,
+        "w": 528,
+        "h": 46
+      }
+    },
+    {
+      "id": 12,
+      "role": "text",
+      "label": "Buy one, get one 50% off.",
+      "rect": {
+        "x": 209,
+        "y": 427,
+        "w": 218,
+        "h": 21
+      }
+    }
+  ],
+  "history": [],
+  "timings": {
+    "scanMs": 23,
+    "captureMs": 29,
+    "marksMs": 37
+  }
+}

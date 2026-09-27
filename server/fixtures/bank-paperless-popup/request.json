@@ -1,0 +1,95 @@
+{
+  "sessionId": "fixture-bank-paperless-popup",
+  "turn": 4,
+  "goal": "pay my credit card bill",
+  "page": {
+    "url": "http://localhost:3001/accounts",
+    "title": "Harbor Bank",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "devicePixelRatio": 1,
+    "scrollY": 0,
+    "scrollMaxY": 305
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "button",
+      "label": "Close",
+      "rect": {
+        "x": 846,
+        "y": 323,
+        "w": 32,
+        "h": 32
+      },
+      "focused": true
+    },
+    {
+      "id": 2,
+      "role": "button",
+      "label": "Go paperless",
+      "rect": {
+        "x": 562,
+        "y": 533,
+        "w": 142,
+        "h": 43
+      }
+    },
+    {
+      "id": 3,
+      "role": "button",
+      "label": "Maybe later",
+      "rect": {
+        "x": 714,
+        "y": 533,
+        "w": 134,
+        "h": 43
+      }
+    },
+    {
+      "id": 4,
+      "role": "heading",
+      "label": "Go paperless with Harbor Bank",
+      "rect": {
+        "x": 562,
+        "y": 323,
+        "w": 272,
+        "h": 56
+      }
+    }
+  ],
+  "history": [
+    {
+      "action": "type",
+      "elementLabel": "Username",
+      "instruction": "Type your username in the Username box.",
+      "outcome": "completed",
+      "turn": 1,
+      "url": "http://localhost:3001/"
+    },
+    {
+      "action": "type",
+      "elementLabel": "Password",
+      "instruction": "Type your password in the Password box.",
+      "outcome": "completed",
+      "turn": 2,
+      "url": "http://localhost:3001/"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Sign in",
+      "instruction": "Click the yellow Sign in button at the bottom of the form.",
+      "outcome": "completed",
+      "turn": 3,
+      "url": "http://localhost:3001/"
+    }
+  ],
+  "timings": {
+    "scanMs": 36,
+    "captureMs": 36,
+    "marksMs": 37,
+    "settleMs": 653
+  }
+}

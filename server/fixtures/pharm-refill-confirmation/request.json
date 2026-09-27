@@ -1,0 +1,211 @@
+{
+  "sessionId": "fixture-pharm-refill-confirmation",
+  "turn": 9,
+  "goal": "refill my blood pressure medicine",
+  "page": {
+    "url": "http://localhost:3002/pharmacy/refills/done",
+    "title": "SunPlaza Pharmacy",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "devicePixelRatio": 1,
+    "scrollY": 0,
+    "scrollMaxY": 0
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "link",
+      "label": "SunPlaza Pharmacy",
+      "rect": {
+        "x": 192,
+        "y": 22,
+        "w": 189,
+        "h": 22
+      }
+    },
+    {
+      "id": 2,
+      "role": "link",
+      "label": "Home",
+      "rect": {
+        "x": 580,
+        "y": 22,
+        "w": 43,
+        "h": 22
+      }
+    },
+    {
+      "id": 3,
+      "role": "link",
+      "label": "Pharmacy",
+      "rect": {
+        "x": 646,
+        "y": 22,
+        "w": 72,
+        "h": 22
+      }
+    },
+    {
+      "id": 4,
+      "role": "link",
+      "label": "Health services",
+      "rect": {
+        "x": 742,
+        "y": 22,
+        "w": 111,
+        "h": 22
+      }
+    },
+    {
+      "id": 5,
+      "role": "button",
+      "label": "Shop",
+      "rect": {
+        "x": 877,
+        "y": 21,
+        "w": 48,
+        "h": 24
+      }
+    },
+    {
+      "id": 6,
+      "role": "button",
+      "label": "Photo",
+      "rect": {
+        "x": 949,
+        "y": 21,
+        "w": 53,
+        "h": 24
+      }
+    },
+    {
+      "id": 7,
+      "role": "button",
+      "label": "Store locator",
+      "rect": {
+        "x": 1026,
+        "y": 21,
+        "w": 105,
+        "h": 24
+      }
+    },
+    {
+      "id": 8,
+      "role": "button",
+      "label": "Hi, Edwin",
+      "rect": {
+        "x": 1154,
+        "y": 14,
+        "w": 94,
+        "h": 37
+      }
+    },
+    {
+      "id": 9,
+      "role": "link",
+      "label": "Back to home",
+      "rect": {
+        "x": 399,
+        "y": 337,
+        "w": 146,
+        "h": 42
+      }
+    },
+    {
+      "id": 10,
+      "role": "heading",
+      "label": "Refill ordered",
+      "rect": {
+        "x": 193,
+        "y": 186,
+        "w": 558,
+        "h": 35
+      }
+    },
+    {
+      "id": 11,
+      "role": "text",
+      "label": "Order for Lisinopril 10 mg.",
+      "rect": {
+        "x": 193,
+        "y": 236,
+        "w": 558,
+        "h": 23
+      }
+    }
+  ],
+  "history": [
+    {
+      "action": "click",
+      "elementLabel": "Pharmacy",
+      "instruction": "Click the Pharmacy link at the top of the page.",
+      "outcome": "completed",
+      "turn": 1,
+      "url": "http://localhost:3002/"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Rx Refill a prescription Reorder medicine you already take",
+      "instruction": "Click the Refill a prescription button.",
+      "outcome": "completed",
+      "turn": 2,
+      "url": "http://localhost:3002/pharmacy"
+    },
+    {
+      "action": "type",
+      "elementLabel": "Username",
+      "instruction": "Type your username in the box labeled Username.",
+      "outcome": "completed",
+      "turn": 3,
+      "url": "http://localhost:3002/login?next=%2Fpharmacy%2Frefills"
+    },
+    {
+      "action": "type",
+      "elementLabel": "Password",
+      "instruction": "Type your password in the Password box.",
+      "outcome": "completed",
+      "turn": 4,
+      "url": "http://localhost:3002/login?next=%2Fpharmacy%2Frefills"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Sign in",
+      "instruction": "Click the green Sign in button at the center of the page.",
+      "outcome": "completed",
+      "turn": 5,
+      "url": "http://localhost:3002/login?next=%2Fpharmacy%2Frefills"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Select Lisinopril 10 mg for refill",
+      "instruction": "Click the checkbox next to Lisinopril 10 mg to select it for refill.",
+      "outcome": "completed",
+      "turn": 6,
+      "url": "http://localhost:3002/pharmacy/refills"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Continue",
+      "instruction": "Click the blue Continue button at the bottom of the page.",
+      "outcome": "completed",
+      "turn": 7,
+      "url": "http://localhost:3002/pharmacy/refills"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Place refill order",
+      "instruction": "Click the blue Place refill order button at the bottom of the page.",
+      "outcome": "completed",
+      "turn": 8,
+      "url": "http://localhost:3002/pharmacy/refills/review"
+    }
+  ],
+  "timings": {
+    "scanMs": 37,
+    "captureMs": 36,
+    "marksMs": 34,
+    "settleMs": 597
+  }
+}

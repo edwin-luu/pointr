@@ -1,0 +1,250 @@
+{
+  "sessionId": "fixture-groc-stepper-means-added",
+  "turn": 4,
+  "goal": "add whole milk to my cart",
+  "page": {
+    "url": "http://localhost:3003/search?q=milk",
+    "title": "FreshCart",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "devicePixelRatio": 1,
+    "scrollY": 0,
+    "scrollMaxY": 0
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "button",
+      "label": "Open menu",
+      "rect": {
+        "x": 164,
+        "y": 15,
+        "w": 42,
+        "h": 42
+      }
+    },
+    {
+      "id": 2,
+      "role": "link",
+      "label": "FreshCart",
+      "rect": {
+        "x": 220,
+        "y": 21,
+        "w": 105,
+        "h": 29
+      }
+    },
+    {
+      "id": 3,
+      "role": "button",
+      "label": "Shopping at Aisle 8 Market - Coral Way",
+      "rect": {
+        "x": 339,
+        "y": 17,
+        "w": 311,
+        "h": 38
+      }
+    },
+    {
+      "id": 4,
+      "role": "textbox",
+      "label": "Search products",
+      "rect": {
+        "x": 674,
+        "y": 14,
+        "w": 480,
+        "h": 44
+      },
+      "inputType": "text",
+      "hasValue": true
+    },
+    {
+      "id": 5,
+      "role": "button",
+      "label": "Account",
+      "rect": {
+        "x": 1178,
+        "y": 15,
+        "w": 42,
+        "h": 42
+      }
+    },
+    {
+      "id": 6,
+      "role": "button",
+      "label": "Cart, 1 items",
+      "rect": {
+        "x": 1234,
+        "y": 15,
+        "w": 42,
+        "h": 42
+      }
+    },
+    {
+      "id": 7,
+      "role": "link",
+      "label": "🥛 Whole Milk 1 gal $4.29",
+      "rect": {
+        "x": 181,
+        "y": 178,
+        "w": 176,
+        "h": 110
+      }
+    },
+    {
+      "id": 8,
+      "role": "button",
+      "label": "Decrease quantity of Whole Milk",
+      "rect": {
+        "x": 281,
+        "y": 289,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "id": 9,
+      "role": "button",
+      "label": "Increase quantity of Whole Milk",
+      "rect": {
+        "x": 333,
+        "y": 289,
+        "w": 24,
+        "h": 24
+      }
+    },
+    {
+      "id": 10,
+      "role": "link",
+      "label": "🥛 2% Reduced Fat Milk 1 gal $4.19",
+      "rect": {
+        "x": 407,
+        "y": 178,
+        "w": 176,
+        "h": 110
+      }
+    },
+    {
+      "id": 11,
+      "role": "button",
+      "label": "Add 2% Reduced Fat Milk to cart",
+      "rect": {
+        "x": 550,
+        "y": 279,
+        "w": 34,
+        "h": 34
+      }
+    },
+    {
+      "id": 12,
+      "role": "link",
+      "label": "🥛 Organic Whole Milk half gal $5.49",
+      "rect": {
+        "x": 632,
+        "y": 178,
+        "w": 176,
+        "h": 110
+      }
+    },
+    {
+      "id": 13,
+      "role": "button",
+      "label": "Add Organic Whole Milk to cart",
+      "rect": {
+        "x": 776,
+        "y": 279,
+        "w": 34,
+        "h": 34
+      }
+    },
+    {
+      "id": 14,
+      "role": "link",
+      "label": "🥛 Lactose-Free 2% Milk half gal $4.79",
+      "rect": {
+        "x": 858,
+        "y": 178,
+        "w": 176,
+        "h": 133
+      }
+    },
+    {
+      "id": 15,
+      "role": "button",
+      "label": "Add Lactose-Free 2% Milk to cart",
+      "rect": {
+        "x": 1001,
+        "y": 279,
+        "w": 34,
+        "h": 34
+      }
+    },
+    {
+      "id": 16,
+      "role": "link",
+      "label": "🥛 Unsweetened Almond Milk half gal $3.99",
+      "rect": {
+        "x": 1083,
+        "y": 178,
+        "w": 176,
+        "h": 133
+      }
+    },
+    {
+      "id": 17,
+      "role": "button",
+      "label": "Add Unsweetened Almond Milk to cart",
+      "rect": {
+        "x": 1227,
+        "y": 279,
+        "w": 34,
+        "h": 34
+      }
+    },
+    {
+      "id": 18,
+      "role": "heading",
+      "label": "5 results for “milk”",
+      "rect": {
+        "x": 164,
+        "y": 97,
+        "w": 1112,
+        "h": 47
+      }
+    }
+  ],
+  "history": [
+    {
+      "action": "click",
+      "elementLabel": "Add Whole Milk to cart",
+      "instruction": "Click the Add Whole Milk to cart button.",
+      "outcome": "target_covered",
+      "turn": 1,
+      "url": "http://localhost:3003/search?q=milk"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Close promotion",
+      "instruction": "Click the X at the top right of the popup to close it.",
+      "outcome": "completed",
+      "turn": 2,
+      "url": "http://localhost:3003/search?q=milk"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Add Whole Milk to cart",
+      "instruction": "Click the Add Whole Milk to cart button.",
+      "outcome": "completed",
+      "turn": 3,
+      "url": "http://localhost:3003/search?q=milk"
+    }
+  ],
+  "timings": {
+    "scanMs": 35,
+    "captureMs": 26,
+    "marksMs": 28,
+    "settleMs": 609
+  }
+}

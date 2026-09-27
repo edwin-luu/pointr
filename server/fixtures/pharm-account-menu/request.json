@@ -1,0 +1,234 @@
+{
+  "sessionId": "fixture-pharm-account-menu",
+  "turn": 7,
+  "goal": "what are my allergies?",
+  "page": {
+    "url": "http://localhost:3002/care/appointments/new",
+    "title": "SunPlaza Pharmacy",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "devicePixelRatio": 1,
+    "scrollY": 0,
+    "scrollMaxY": 0
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "link",
+      "label": "SunPlaza Pharmacy",
+      "rect": {
+        "x": 192,
+        "y": 22,
+        "w": 189,
+        "h": 22
+      }
+    },
+    {
+      "id": 2,
+      "role": "link",
+      "label": "Home",
+      "rect": {
+        "x": 580,
+        "y": 22,
+        "w": 43,
+        "h": 22
+      }
+    },
+    {
+      "id": 3,
+      "role": "link",
+      "label": "Pharmacy",
+      "rect": {
+        "x": 646,
+        "y": 22,
+        "w": 72,
+        "h": 22
+      }
+    },
+    {
+      "id": 4,
+      "role": "link",
+      "label": "Health services",
+      "rect": {
+        "x": 742,
+        "y": 22,
+        "w": 111,
+        "h": 22
+      }
+    },
+    {
+      "id": 5,
+      "role": "button",
+      "label": "Shop",
+      "rect": {
+        "x": 877,
+        "y": 21,
+        "w": 48,
+        "h": 24
+      }
+    },
+    {
+      "id": 6,
+      "role": "button",
+      "label": "Photo",
+      "rect": {
+        "x": 949,
+        "y": 21,
+        "w": 53,
+        "h": 24
+      }
+    },
+    {
+      "id": 7,
+      "role": "button",
+      "label": "Store locator",
+      "rect": {
+        "x": 1026,
+        "y": 21,
+        "w": 105,
+        "h": 24
+      }
+    },
+    {
+      "id": 8,
+      "role": "button",
+      "label": "Hi, Edwin",
+      "rect": {
+        "x": 1154,
+        "y": 14,
+        "w": 94,
+        "h": 37
+      }
+    },
+    {
+      "id": 9,
+      "role": "radio",
+      "label": "Dr. Maria Alvarez, MD Family medicine Your primary care doctor",
+      "rect": {
+        "x": 237,
+        "y": 294,
+        "w": 13,
+        "h": 13
+      },
+      "inputType": "radio",
+      "checked": true
+    },
+    {
+      "id": 10,
+      "role": "radio",
+      "label": "Dr. James Chen, MD Internal medicine",
+      "rect": {
+        "x": 237,
+        "y": 407,
+        "w": 13,
+        "h": 13
+      },
+      "inputType": "radio",
+      "checked": false
+    },
+    {
+      "id": 11,
+      "role": "radio",
+      "label": "Kim Patel, NP Nurse practitioner",
+      "rect": {
+        "x": 237,
+        "y": 494,
+        "w": 13,
+        "h": 13
+      },
+      "inputType": "radio",
+      "checked": false
+    },
+    {
+      "id": 12,
+      "role": "button",
+      "label": "Continue",
+      "rect": {
+        "x": 215,
+        "y": 572,
+        "w": 109,
+        "h": 42
+      }
+    },
+    {
+      "id": 13,
+      "role": "heading",
+      "label": "Book an appointment",
+      "rect": {
+        "x": 192,
+        "y": 95,
+        "w": 1056,
+        "h": 47
+      }
+    },
+    {
+      "id": 14,
+      "role": "heading",
+      "label": "Choose a provider",
+      "rect": {
+        "x": 215,
+        "y": 231,
+        "w": 514,
+        "h": 35
+      }
+    }
+  ],
+  "history": [
+    {
+      "action": "click",
+      "elementLabel": "Health services",
+      "instruction": "Click the Health services link at the top to find your allergies.",
+      "outcome": "completed",
+      "turn": 1,
+      "url": "http://localhost:3002/"
+    },
+    {
+      "action": "click",
+      "elementLabel": "⚛ Lab tests Book bloodwork and screenings",
+      "instruction": "Click the Lab tests button to see more health information.",
+      "outcome": "completed",
+      "turn": 2,
+      "url": "http://localhost:3002/care"
+    },
+    {
+      "action": "click",
+      "elementLabel": "+ Book an appointment See a doctor or nurse practitioner",
+      "instruction": "Click the Book an appointment button to see more health information.",
+      "outcome": "completed",
+      "turn": 3,
+      "url": "http://localhost:3002/care"
+    },
+    {
+      "action": "type",
+      "elementLabel": "Username",
+      "instruction": "Type your username in the box labeled Username.",
+      "outcome": "completed",
+      "turn": 4,
+      "url": "http://localhost:3002/login?next=%2Fcare%2Fappointments%2Fnew"
+    },
+    {
+      "action": "type",
+      "elementLabel": "Password",
+      "instruction": "Type your password in the box labeled Password.",
+      "outcome": "completed",
+      "turn": 5,
+      "url": "http://localhost:3002/login?next=%2Fcare%2Fappointments%2Fnew"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Sign in",
+      "instruction": "Click the green Sign in button at the center of the page.",
+      "outcome": "completed",
+      "turn": 6,
+      "url": "http://localhost:3002/login?next=%2Fcare%2Fappointments%2Fnew"
+    }
+  ],
+  "timings": {
+    "scanMs": 34,
+    "captureMs": 31,
+    "marksMs": 39,
+    "settleMs": 620
+  }
+}

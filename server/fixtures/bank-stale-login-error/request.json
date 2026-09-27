@@ -1,0 +1,411 @@
+{
+  "sessionId": "fixture-bank-stale-login-error",
+  "turn": 7,
+  "goal": "pay my credit card bill",
+  "page": {
+    "url": "http://localhost:3001/",
+    "title": "Harbor Bank",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "devicePixelRatio": 1,
+    "scrollY": 0,
+    "scrollMaxY": 860
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "button",
+      "label": "Locations",
+      "rect": {
+        "x": 150,
+        "y": 6,
+        "w": 59,
+        "h": 18
+      }
+    },
+    {
+      "id": 2,
+      "role": "button",
+      "label": "Contact us",
+      "rect": {
+        "x": 229,
+        "y": 6,
+        "w": 67,
+        "h": 18
+      }
+    },
+    {
+      "id": 3,
+      "role": "button",
+      "label": "Español",
+      "rect": {
+        "x": 316,
+        "y": 6,
+        "w": 49,
+        "h": 18
+      }
+    },
+    {
+      "id": 4,
+      "role": "button",
+      "label": "Search Harbor Bank",
+      "rect": {
+        "x": 1247,
+        "y": 6,
+        "w": 43,
+        "h": 18
+      }
+    },
+    {
+      "id": 5,
+      "role": "link",
+      "label": "H Harbor Bank",
+      "rect": {
+        "x": 150,
+        "y": 43,
+        "w": 174,
+        "h": 28
+      }
+    },
+    {
+      "id": 6,
+      "role": "link",
+      "label": "Personal",
+      "rect": {
+        "x": 356,
+        "y": 47,
+        "w": 58,
+        "h": 20
+      }
+    },
+    {
+      "id": 7,
+      "role": "button",
+      "label": "Business",
+      "rect": {
+        "x": 432,
+        "y": 47,
+        "w": 61,
+        "h": 20
+      }
+    },
+    {
+      "id": 8,
+      "role": "button",
+      "label": "Credit Cards",
+      "rect": {
+        "x": 511,
+        "y": 47,
+        "w": 85,
+        "h": 20
+      }
+    },
+    {
+      "id": 9,
+      "role": "button",
+      "label": "Loans",
+      "rect": {
+        "x": 614,
+        "y": 47,
+        "w": 40,
+        "h": 20
+      }
+    },
+    {
+      "id": 10,
+      "role": "button",
+      "label": "Mortgages",
+      "rect": {
+        "x": 672,
+        "y": 47,
+        "w": 73,
+        "h": 20
+      }
+    },
+    {
+      "id": 11,
+      "role": "button",
+      "label": "Investing",
+      "rect": {
+        "x": 763,
+        "y": 47,
+        "w": 63,
+        "h": 20
+      }
+    },
+    {
+      "id": 12,
+      "role": "button",
+      "label": "Learn",
+      "rect": {
+        "x": 844,
+        "y": 47,
+        "w": 38,
+        "h": 20
+      }
+    },
+    {
+      "id": 13,
+      "role": "link",
+      "label": "Help",
+      "rect": {
+        "x": 900,
+        "y": 47,
+        "w": 31,
+        "h": 20
+      }
+    },
+    {
+      "id": 14,
+      "role": "link",
+      "label": "Sign in",
+      "rect": {
+        "x": 1216,
+        "y": 42,
+        "w": 74,
+        "h": 31
+      }
+    },
+    {
+      "id": 15,
+      "role": "button",
+      "label": "Open an account",
+      "rect": {
+        "x": 150,
+        "y": 237,
+        "w": 173,
+        "h": 43
+      }
+    },
+    {
+      "id": 16,
+      "role": "button",
+      "label": "See all rates",
+      "rect": {
+        "x": 333,
+        "y": 237,
+        "w": 140,
+        "h": 43
+      }
+    },
+    {
+      "id": 17,
+      "role": "textbox",
+      "label": "Username",
+      "rect": {
+        "x": 912,
+        "y": 256,
+        "w": 356,
+        "h": 43
+      },
+      "inputType": "text",
+      "hasValue": true
+    },
+    {
+      "id": 18,
+      "role": "textbox",
+      "label": "Password",
+      "rect": {
+        "x": 912,
+        "y": 338,
+        "w": 356,
+        "h": 43
+      },
+      "inputType": "password",
+      "hasValue": true,
+      "focused": true
+    },
+    {
+      "id": 19,
+      "role": "checkbox",
+      "label": "Remember me",
+      "rect": {
+        "x": 916,
+        "y": 399,
+        "w": 13,
+        "h": 13
+      },
+      "inputType": "checkbox",
+      "checked": false
+    },
+    {
+      "id": 20,
+      "role": "button",
+      "label": "Sign in",
+      "rect": {
+        "x": 912,
+        "y": 429,
+        "w": 356,
+        "h": 41
+      }
+    },
+    {
+      "id": 21,
+      "role": "button",
+      "label": "Forgot username or password?",
+      "rect": {
+        "x": 912,
+        "y": 482,
+        "w": 202,
+        "h": 19
+      }
+    },
+    {
+      "id": 22,
+      "role": "button",
+      "label": "Enroll",
+      "rect": {
+        "x": 1231,
+        "y": 482,
+        "w": 37,
+        "h": 19
+      }
+    },
+    {
+      "id": 23,
+      "role": "button",
+      "label": "Learn more",
+      "rect": {
+        "x": 1158,
+        "y": 623,
+        "w": 106,
+        "h": 31
+      }
+    },
+    {
+      "id": 24,
+      "role": "button",
+      "label": "Pause promotions",
+      "rect": {
+        "x": 1250,
+        "y": 649,
+        "w": 26,
+        "h": 26
+      }
+    },
+    {
+      "id": 25,
+      "role": "heading",
+      "label": "Banking that works as hard as you do.",
+      "rect": {
+        "x": 150,
+        "y": 119,
+        "w": 710,
+        "h": 46
+      }
+    },
+    {
+      "id": 26,
+      "role": "heading",
+      "label": "Sign in",
+      "rect": {
+        "x": 912,
+        "y": 141,
+        "w": 356,
+        "h": 27
+      }
+    },
+    {
+      "id": 27,
+      "role": "heading",
+      "label": "Earn 4.10% APY on Harbor Savings",
+      "rect": {
+        "x": 176,
+        "y": 613,
+        "w": 964,
+        "h": 25
+      }
+    },
+    {
+      "id": 28,
+      "role": "heading",
+      "label": "Popular products",
+      "rect": {
+        "x": 150,
+        "y": 739,
+        "w": 1140,
+        "h": 30
+      }
+    },
+    {
+      "id": 29,
+      "role": "text",
+      "label": "4.10% APY, no minimum balance.",
+      "rect": {
+        "x": 458,
+        "y": 828,
+        "w": 235,
+        "h": 20
+      }
+    },
+    {
+      "id": 30,
+      "role": "text",
+      "label": "3% cash back on groceries and gas.",
+      "rect": {
+        "x": 747,
+        "y": 828,
+        "w": 235,
+        "h": 39
+      }
+    }
+  ],
+  "history": [
+    {
+      "action": "type",
+      "elementLabel": "Username",
+      "instruction": "Type your username in the box labeled Username.",
+      "outcome": "completed",
+      "turn": 1,
+      "url": "http://localhost:3001/"
+    },
+    {
+      "action": "type",
+      "elementLabel": "Password",
+      "instruction": "Type your password in the box labeled Password.",
+      "outcome": "page_changed",
+      "turn": 2,
+      "url": "http://localhost:3001/"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Sign in",
+      "instruction": "Click the yellow Sign in button.",
+      "outcome": "completed",
+      "turn": 3,
+      "url": "http://localhost:3001/"
+    },
+    {
+      "action": "type",
+      "elementLabel": "Password",
+      "instruction": "Type your password in the box labeled Password.",
+      "outcome": "completed",
+      "turn": 4,
+      "url": "http://localhost:3001/"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Sign in",
+      "instruction": "Click the yellow Sign in button to try again.",
+      "outcome": "completed",
+      "turn": 5,
+      "url": "http://localhost:3001/"
+    },
+    {
+      "action": "type",
+      "elementLabel": "Username",
+      "instruction": "Type your correct username in the Username box.",
+      "outcome": "completed",
+      "turn": 6,
+      "url": "http://localhost:3001/"
+    }
+  ],
+  "timings": {
+    "scanMs": 33,
+    "captureMs": 34,
+    "marksMs": 48,
+    "settleMs": 603
+  }
+}

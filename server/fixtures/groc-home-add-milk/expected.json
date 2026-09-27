@@ -1,0 +1,16 @@
+{
+  "acceptableIds": [
+    20
+  ],
+  "action": "click",
+  "alsoOk": [
+    {
+      "action": "type",
+      "acceptableIds": [
+        4
+      ]
+    }
+  ],
+  "note": "add Whole Milk from Fresh picks, or search",
+  "source": "20260926-225131-810-c817137a-t1"
+}

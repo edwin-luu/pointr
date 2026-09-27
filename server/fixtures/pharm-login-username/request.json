@@ -1,0 +1,178 @@
+{
+  "sessionId": "fixture-pharm-login-username",
+  "turn": 3,
+  "goal": "refill my blood pressure medicine",
+  "page": {
+    "url": "http://localhost:3002/login?next=%2Fpharmacy%2Frefills",
+    "title": "SunPlaza Pharmacy",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "devicePixelRatio": 1,
+    "scrollY": 0,
+    "scrollMaxY": 0
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "link",
+      "label": "SunPlaza Pharmacy",
+      "rect": {
+        "x": 192,
+        "y": 21,
+        "w": 189,
+        "h": 22
+      }
+    },
+    {
+      "id": 2,
+      "role": "link",
+      "label": "Home",
+      "rect": {
+        "x": 593,
+        "y": 21,
+        "w": 43,
+        "h": 22
+      }
+    },
+    {
+      "id": 3,
+      "role": "link",
+      "label": "Pharmacy",
+      "rect": {
+        "x": 660,
+        "y": 21,
+        "w": 72,
+        "h": 22
+      }
+    },
+    {
+      "id": 4,
+      "role": "link",
+      "label": "Health services",
+      "rect": {
+        "x": 755,
+        "y": 21,
+        "w": 111,
+        "h": 22
+      }
+    },
+    {
+      "id": 5,
+      "role": "button",
+      "label": "Shop",
+      "rect": {
+        "x": 890,
+        "y": 20,
+        "w": 48,
+        "h": 24
+      }
+    },
+    {
+      "id": 6,
+      "role": "button",
+      "label": "Photo",
+      "rect": {
+        "x": 962,
+        "y": 20,
+        "w": 53,
+        "h": 24
+      }
+    },
+    {
+      "id": 7,
+      "role": "button",
+      "label": "Store locator",
+      "rect": {
+        "x": 1039,
+        "y": 20,
+        "w": 105,
+        "h": 24
+      }
+    },
+    {
+      "id": 8,
+      "role": "link",
+      "label": "Sign in",
+      "rect": {
+        "x": 1168,
+        "y": 14,
+        "w": 80,
+        "h": 36
+      }
+    },
+    {
+      "id": 9,
+      "role": "textbox",
+      "label": "Username",
+      "rect": {
+        "x": 553,
+        "y": 217,
+        "w": 334,
+        "h": 44
+      },
+      "inputType": "text",
+      "hasValue": false
+    },
+    {
+      "id": 10,
+      "role": "textbox",
+      "label": "Password",
+      "rect": {
+        "x": 553,
+        "y": 302,
+        "w": 334,
+        "h": 44
+      },
+      "inputType": "password",
+      "hasValue": false
+    },
+    {
+      "id": 11,
+      "role": "button",
+      "label": "Sign in",
+      "rect": {
+        "x": 553,
+        "y": 360,
+        "w": 334,
+        "h": 42
+      }
+    },
+    {
+      "id": 12,
+      "role": "heading",
+      "label": "Sign in",
+      "rect": {
+        "x": 553,
+        "y": 137,
+        "w": 334,
+        "h": 47
+      }
+    }
+  ],
+  "history": [
+    {
+      "action": "click",
+      "elementLabel": "Pharmacy",
+      "instruction": "Click the Pharmacy link at the top of the page.",
+      "outcome": "completed",
+      "turn": 1,
+      "url": "http://localhost:3002/"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Rx Refill a prescription Reorder medicine you already take",
+      "instruction": "Click the Refill a prescription button.",
+      "outcome": "completed",
+      "turn": 2,
+      "url": "http://localhost:3002/pharmacy"
+    }
+  ],
+  "timings": {
+    "scanMs": 32,
+    "captureMs": 31,
+    "marksMs": 28,
+    "settleMs": 590
+  }
+}

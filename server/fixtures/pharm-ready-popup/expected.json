@@ -1,0 +1,9 @@
+{
+  "acceptableIds": [
+    1,
+    3
+  ],
+  "action": "click",
+  "note": "order-ready popup: close (X or Dismiss), not View order",
+  "source": "20260926-225243-346-17da1437-t1"
+}

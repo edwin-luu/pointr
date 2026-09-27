@@ -1,0 +1,213 @@
+{
+  "sessionId": "fixture-groc-choose-pickup",
+  "turn": 9,
+  "goal": "order milk, eggs and bread for pickup",
+  "page": {
+    "url": "http://localhost:3003/checkout",
+    "title": "FreshCart",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "devicePixelRatio": 1,
+    "scrollY": 0,
+    "scrollMaxY": 0
+  },
+  "elements": [
+    {
+      "id": 1,
+      "role": "button",
+      "label": "Open menu",
+      "rect": {
+        "x": 164,
+        "y": 15,
+        "w": 42,
+        "h": 42
+      }
+    },
+    {
+      "id": 2,
+      "role": "link",
+      "label": "FreshCart",
+      "rect": {
+        "x": 220,
+        "y": 21,
+        "w": 105,
+        "h": 29
+      }
+    },
+    {
+      "id": 3,
+      "role": "button",
+      "label": "Shopping at Aisle 8 Market - Coral Way",
+      "rect": {
+        "x": 339,
+        "y": 17,
+        "w": 311,
+        "h": 38
+      }
+    },
+    {
+      "id": 4,
+      "role": "textbox",
+      "label": "Search products",
+      "rect": {
+        "x": 674,
+        "y": 14,
+        "w": 480,
+        "h": 44
+      },
+      "inputType": "text",
+      "hasValue": false
+    },
+    {
+      "id": 5,
+      "role": "button",
+      "label": "Account",
+      "rect": {
+        "x": 1178,
+        "y": 15,
+        "w": 42,
+        "h": 42
+      }
+    },
+    {
+      "id": 6,
+      "role": "button",
+      "label": "Cart, 3 items",
+      "rect": {
+        "x": 1234,
+        "y": 15,
+        "w": 42,
+        "h": 42
+      }
+    },
+    {
+      "id": 7,
+      "role": "button",
+      "label": "Delivery",
+      "rect": {
+        "x": 193,
+        "y": 295,
+        "w": 249,
+        "h": 43
+      }
+    },
+    {
+      "id": 8,
+      "role": "button",
+      "label": "Pickup",
+      "rect": {
+        "x": 446,
+        "y": 295,
+        "w": 249,
+        "h": 43
+      }
+    },
+    {
+      "id": 9,
+      "role": "button",
+      "label": "Continue",
+      "rect": {
+        "x": 189,
+        "y": 360,
+        "w": 113,
+        "h": 44
+      }
+    },
+    {
+      "id": 10,
+      "role": "heading",
+      "label": "Checkout",
+      "rect": {
+        "x": 164,
+        "y": 107,
+        "w": 1112,
+        "h": 47
+      }
+    },
+    {
+      "id": 11,
+      "role": "heading",
+      "label": "How do you want your order?",
+      "rect": {
+        "x": 189,
+        "y": 248,
+        "w": 510,
+        "h": 35
+      }
+    }
+  ],
+  "history": [
+    {
+      "action": "click",
+      "elementLabel": "Add Whole Milk to cart",
+      "instruction": "Click the Add Whole Milk to cart button.",
+      "outcome": "completed",
+      "turn": 1,
+      "url": "http://localhost:3003/"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Add Large White Eggs to cart",
+      "instruction": "Click the Add Large White Eggs to cart button.",
+      "outcome": "completed",
+      "turn": 2,
+      "url": "http://localhost:3003/"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Add White Sandwich Bread to cart",
+      "instruction": "Click the Add White Sandwich Bread to cart button.",
+      "outcome": "completed",
+      "turn": 3,
+      "url": "http://localhost:3003/"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Cart, 3 items",
+      "instruction": "Click the Cart button at the top right to view your cart and proceed to checkout.",
+      "outcome": "completed",
+      "turn": 4,
+      "url": "http://localhost:3003/"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Checkout",
+      "instruction": "Click the green Checkout button at the top of the cart.",
+      "outcome": "completed",
+      "turn": 5,
+      "url": "http://localhost:3003/"
+    },
+    {
+      "action": "type",
+      "elementLabel": "Username",
+      "instruction": "Type your username in the box labeled Username.",
+      "outcome": "completed",
+      "turn": 6,
+      "url": "http://localhost:3003/signin?next=/checkout"
+    },
+    {
+      "action": "type",
+      "elementLabel": "Password",
+      "instruction": "Type your password in the box labeled Password.",
+      "outcome": "completed",
+      "turn": 7,
+      "url": "http://localhost:3003/signin?next=/checkout"
+    },
+    {
+      "action": "click",
+      "elementLabel": "Sign in",
+      "instruction": "Click the green Sign in button at the center of the page.",
+      "outcome": "completed",
+      "turn": 8,
+      "url": "http://localhost:3003/signin?next=/checkout"
+    }
+  ],
+  "timings": {
+    "scanMs": 34,
+    "captureMs": 32,
+    "marksMs": 30,
+    "settleMs": 583
+  }
+}
