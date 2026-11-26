@@ -80,7 +80,7 @@ Out of scope today: "Hey Pointr" wake word, languages other than English, iframe
 
 ```
 pointr/
-  README.md  CLAUDE.md
+  README.md  AGENTS.md
   docs/ARCHITECTURE.md  docs/MOCK-APPS.md
   demo-apps/                        hub/ bank/ pharmacy/ grocery/ shared/ + docker-compose.yml (see docs/MOCK-APPS.md)
   server/
